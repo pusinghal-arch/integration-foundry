@@ -1,0 +1,801 @@
+IDOC_NUMBER,MESTYP,DIRECTION,PARTNER_SYSTEM,STATUS_CODE,STATUS_DESC,ROOT_CAUSE,RESOLUTION,TIMESTAMP,RESOLVED_FLAG
+0600000671,INVOIC,OUTBOUND,LEGACY_MAINFRAME,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-03-18 16:59:33.911522,True
+0600000158,DEBMAS,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-03-19 12:03:33.911522,True
+0600000014,MATMAS,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-03-19 12:25:33.911522,True
+0600000004,MATMAS,INBOUND,BTP_INTEGRATION_SUITE,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-03-20 02:50:33.911522,True
+0600000326,WMMBXY,OUTBOUND,EDI_GATEWAY,53,Application document posted,,,2026-03-21 10:02:33.911522,True
+0600000143,ORDERS,OUTBOUND,LEGACY_MAINFRAME,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-03-21 10:31:33.911522,True
+0600000045,WMMBXY,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-03-21 14:51:33.911522,True
+0600000615,CREMAS,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-03-21 18:15:33.911522,True
+0600000218,DEBMAS,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-03-21 18:54:33.911522,True
+0600000419,DEBMAS,INBOUND,BTP_INTEGRATION_SUITE,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-03-21 19:27:33.911522,True
+0600000794,DESADV,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-03-22 01:56:33.911522,True
+0600000408,WMMBXY,OUTBOUND,CRM_SFDC,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-03-22 06:48:33.911522,True
+0600000736,DESADV,OUTBOUND,EDI_GATEWAY,53,Application document posted,,,2026-03-22 07:28:33.911522,True
+0600000659,WMMBXY,INBOUND,EDI_GATEWAY,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-03-22 10:12:33.911522,True
+0600000162,MATMAS,OUTBOUND,B2B_VAN_SPS,02,"Error passing data to port (outbound, dispatch)",tRFC queue stuck or destination system down at dispatch time,Check tRFC monitor (SM58); reprocess stuck LUWs; confirm target availability,2026-03-22 11:12:33.911522,True
+0600000110,DESADV,OUTBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-03-22 12:16:33.911522,True
+0600000538,ORDERS,INBOUND,CRM_SFDC,53,Application document posted,,,2026-03-23 00:22:33.911522,True
+0600000752,ORDERS,OUTBOUND,ARIBA_NETWORK,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-03-23 03:51:33.911522,False
+0600000739,MATMAS,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-03-23 06:36:33.911522,True
+0600000644,CREMAS,OUTBOUND,EDI_GATEWAY,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-03-23 07:26:33.911522,True
+0600000427,DESADV,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-03-23 18:03:33.911522,True
+0600000433,INVOIC,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-03-23 21:40:33.911522,True
+0600000779,ORDRSP,INBOUND,CRM_SFDC,53,Application document posted,,,2026-03-23 23:51:33.911522,True
+0600000237,DESADV,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-03-24 16:23:33.911522,True
+0600000573,DESADV,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-03-24 18:14:33.911522,True
+0600000303,ORDERS,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-03-24 19:29:33.911522,True
+0600000657,INVOIC,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-03-25 04:10:33.911522,True
+0600000491,ORDERS,INBOUND,CRM_SFDC,53,Application document posted,,,2026-03-25 06:52:33.911522,True
+0600000068,INVOIC,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-03-25 12:57:33.911522,True
+0600000142,DESADV,OUTBOUND,EDI_GATEWAY,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-03-25 14:21:33.911522,True
+0600000259,WMMBXY,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-03-26 07:21:33.911522,True
+0600000282,ORDERS,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-03-26 08:55:33.911522,True
+0600000501,CREMAS,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-03-26 10:21:33.911522,True
+0600000572,INVOIC,INBOUND,CRM_SFDC,53,Application document posted,,,2026-03-26 22:48:33.911522,True
+0600000548,ORDRSP,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-03-26 23:18:33.911522,True
+0600000180,CREMAS,OUTBOUND,EDI_GATEWAY,53,Application document posted,,,2026-03-27 00:30:33.911522,True
+0600000405,ORDRSP,OUTBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-03-27 04:58:33.911522,True
+0600000070,DEBMAS,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-03-27 15:36:33.911522,True
+0600000280,CREMAS,INBOUND,BTP_INTEGRATION_SUITE,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-03-28 07:56:33.911522,False
+0600000065,WMMBXY,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-03-28 08:49:33.911522,True
+0600000254,ORDRSP,OUTBOUND,ARIBA_NETWORK,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-03-28 17:27:33.911522,False
+0600000107,CREMAS,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-03-29 02:28:33.911522,True
+0600000718,MATMAS,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-03-29 12:37:33.911522,True
+0600000745,ORDRSP,OUTBOUND,B2B_VAN_SPS,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-03-29 13:40:33.911522,False
+0600000633,WMMBXY,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-03-29 17:26:33.911522,True
+0600000701,INVOIC,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-03-29 22:51:33.911522,True
+0600000597,CREMAS,INBOUND,LEGACY_MAINFRAME,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-03-30 00:32:33.911522,True
+0600000637,DEBMAS,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-03-30 04:51:33.911522,True
+0600000366,DESADV,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-03-30 06:46:33.911522,True
+0600000062,MATMAS,INBOUND,EDI_GATEWAY,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-03-30 17:28:33.911522,False
+0600000053,DEBMAS,OUTBOUND,3PL_PROVIDER,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-03-30 21:56:33.911522,True
+0600000358,INVOIC,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-03-31 01:02:33.911522,True
+0600000588,INVOIC,OUTBOUND,BTP_INTEGRATION_SUITE,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-03-31 06:12:33.911522,True
+0600000432,ORDERS,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-03-31 09:09:33.911522,True
+0600000356,WMMBXY,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-03-31 09:19:33.911522,True
+0600000176,WMMBXY,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-03-31 11:21:33.911522,True
+0600000072,ORDERS,INBOUND,B2B_VAN_SPS,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-03-31 18:09:33.911522,True
+0600000189,DEBMAS,OUTBOUND,LEGACY_MAINFRAME,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-04-01 09:24:33.911522,True
+0600000391,ORDRSP,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-04-01 17:03:33.911522,True
+0600000294,CREMAS,INBOUND,LEGACY_MAINFRAME,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-04-01 19:19:33.911522,True
+0600000799,ORDERS,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-04-01 19:23:33.911522,True
+0600000394,MATMAS,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-04-01 19:43:33.911522,True
+0600000114,INVOIC,INBOUND,WMS_MANHATTAN,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-04-01 23:16:33.911522,True
+0600000740,INVOIC,INBOUND,CRM_SFDC,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-04-02 00:56:33.911522,True
+0600000444,DEBMAS,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-04-02 06:24:33.911522,True
+0600000279,WMMBXY,INBOUND,EDI_GATEWAY,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-04-02 12:42:33.911522,False
+0600000334,DESADV,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-04-02 19:15:33.911522,True
+0600000089,MATMAS,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-04-02 21:30:33.911522,True
+0600000594,WMMBXY,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-04-03 07:06:33.911522,True
+0600000295,ORDERS,OUTBOUND,BTP_INTEGRATION_SUITE,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-04-03 17:04:33.911522,True
+0600000009,DEBMAS,OUTBOUND,EDI_GATEWAY,53,Application document posted,,,2026-04-03 19:22:33.911522,True
+0600000323,ORDERS,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-04-04 04:00:33.911522,True
+0600000714,CREMAS,OUTBOUND,3PL_PROVIDER,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-04-04 12:33:33.911522,False
+0600000301,DESADV,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-04-04 13:26:33.911522,True
+0600000749,INVOIC,INBOUND,B2B_VAN_SPS,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-04-04 20:10:33.911522,False
+0600000310,DESADV,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-04-04 21:32:33.911522,True
+0600000092,ORDRSP,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-04-04 21:57:33.911522,True
+0600000206,WMMBXY,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-04-05 00:35:33.911522,True
+0600000163,ORDRSP,OUTBOUND,WMS_MANHATTAN,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-04-05 02:17:33.911522,True
+0600000402,DESADV,INBOUND,WMS_MANHATTAN,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-04-05 10:56:33.911522,True
+0600000487,CREMAS,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-04-05 11:40:33.911522,True
+0600000192,MATMAS,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-04-05 11:45:33.911522,True
+0600000662,ORDERS,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-04-05 16:26:33.911522,True
+0600000563,MATMAS,OUTBOUND,LEGACY_MAINFRAME,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-04-06 02:56:33.911522,True
+0600000196,ORDRSP,OUTBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-04-06 05:06:33.911522,True
+0600000123,MATMAS,INBOUND,WMS_MANHATTAN,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-04-06 05:34:33.911522,False
+0600000214,ORDRSP,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-04-06 05:54:33.911522,True
+0600000128,INVOIC,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-04-06 09:40:33.911522,True
+0600000616,ORDERS,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-04-06 11:11:33.911522,True
+0600000682,CREMAS,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-04-06 12:32:33.911522,True
+0600000628,MATMAS,INBOUND,BTP_INTEGRATION_SUITE,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-04-06 14:11:33.911522,False
+0600000202,DESADV,INBOUND,BTP_INTEGRATION_SUITE,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-04-07 00:11:33.911522,True
+0600000460,CREMAS,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-04-07 08:57:33.911522,True
+0600000000,INVOIC,OUTBOUND,ARIBA_NETWORK,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-04-07 18:37:33.911522,True
+0600000160,DESADV,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-04-07 22:28:33.911522,True
+0600000778,CREMAS,INBOUND,LEGACY_MAINFRAME,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-04-07 22:31:33.911522,True
+0600000523,ORDERS,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-04-07 22:52:33.911522,True
+0600000333,ORDERS,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-04-07 23:03:33.911522,True
+0600000336,INVOIC,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-04-07 23:36:33.911522,True
+0600000484,CREMAS,OUTBOUND,EDI_GATEWAY,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-04-08 02:22:33.911522,True
+0600000742,DEBMAS,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-04-08 04:22:33.911522,True
+0600000048,DESADV,INBOUND,EDI_GATEWAY,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-04-08 10:10:33.911522,True
+0600000440,MATMAS,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-04-08 12:29:33.911522,True
+0600000793,DESADV,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-04-08 12:35:33.911522,True
+0600000063,DESADV,INBOUND,LEGACY_MAINFRAME,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-04-08 17:44:33.911522,True
+0600000116,DESADV,OUTBOUND,EDI_GATEWAY,53,Application document posted,,,2026-04-08 20:42:33.911522,True
+0600000566,DEBMAS,OUTBOUND,EDI_GATEWAY,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-04-09 10:59:33.911522,True
+0600000766,INVOIC,OUTBOUND,3PL_PROVIDER,02,"Error passing data to port (outbound, dispatch)",tRFC queue stuck or destination system down at dispatch time,Check tRFC monitor (SM58); reprocess stuck LUWs; confirm target availability,2026-04-09 13:02:33.911522,False
+0600000743,CREMAS,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-04-09 16:06:33.911522,True
+0600000029,CREMAS,INBOUND,EDI_GATEWAY,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-04-09 16:24:33.911522,False
+0600000446,ORDRSP,OUTBOUND,WMS_MANHATTAN,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-04-10 03:32:33.911522,False
+0600000722,DEBMAS,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-04-10 09:05:33.911522,True
+0600000357,WMMBXY,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-04-10 10:54:33.911522,True
+0600000478,INVOIC,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-04-10 13:56:33.911522,True
+0600000784,CREMAS,INBOUND,CRM_SFDC,53,Application document posted,,,2026-04-10 17:30:33.911522,True
+0600000664,ORDERS,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-04-10 19:04:33.911522,True
+0600000415,CREMAS,INBOUND,CRM_SFDC,53,Application document posted,,,2026-04-11 05:21:33.911522,True
+0600000777,DESADV,INBOUND,LEGACY_MAINFRAME,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-04-11 07:14:33.911522,True
+0600000625,MATMAS,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-04-12 00:44:33.911522,True
+0600000122,MATMAS,OUTBOUND,3PL_PROVIDER,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-04-12 02:23:33.911522,False
+0600000445,ORDRSP,OUTBOUND,B2B_VAN_SPS,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-04-12 19:31:33.911522,True
+0600000621,CREMAS,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-04-13 04:14:33.911522,True
+0600000568,ORDRSP,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-04-13 08:46:33.911522,True
+0600000020,DESADV,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-04-13 16:06:33.911522,True
+0600000576,CREMAS,OUTBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-04-13 21:13:33.911522,True
+0600000105,DEBMAS,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-04-14 10:52:33.911522,True
+0600000380,INVOIC,OUTBOUND,EDI_GATEWAY,53,Application document posted,,,2026-04-14 16:40:33.911522,True
+0600000340,DEBMAS,INBOUND,3PL_PROVIDER,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-04-14 18:46:33.911522,True
+0600000026,ORDERS,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-04-14 19:48:33.911522,True
+0600000581,WMMBXY,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-04-14 21:16:33.911522,True
+0600000374,MATMAS,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-04-15 02:06:33.911522,True
+0600000629,INVOIC,OUTBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-04-15 06:41:33.911522,True
+0600000761,DEBMAS,OUTBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-04-15 06:50:33.911522,True
+0600000518,DESADV,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-04-15 10:06:33.911522,True
+0600000134,WMMBXY,OUTBOUND,3PL_PROVIDER,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-04-15 13:28:33.911522,False
+0600000729,CREMAS,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-04-15 16:38:33.911522,True
+0600000036,CREMAS,OUTBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-04-15 18:45:33.911522,True
+0600000772,INVOIC,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-04-15 23:11:33.911522,True
+0600000111,MATMAS,INBOUND,ARIBA_NETWORK,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-04-15 23:14:33.911522,False
+0600000610,MATMAS,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-04-16 00:24:33.911522,True
+0600000525,MATMAS,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-04-16 02:53:33.911522,True
+0600000319,INVOIC,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-04-16 02:55:33.911522,True
+0600000751,MATMAS,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-04-16 04:18:33.911522,True
+0600000292,ORDERS,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-04-16 08:59:33.911522,True
+0600000388,CREMAS,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-04-16 13:52:33.911522,True
+0600000397,INVOIC,OUTBOUND,ARIBA_NETWORK,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-04-17 10:26:33.911522,True
+0600000482,CREMAS,OUTBOUND,ARIBA_NETWORK,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-04-17 11:08:33.911522,True
+0600000773,ORDERS,OUTBOUND,LEGACY_MAINFRAME,02,"Error passing data to port (outbound, dispatch)",tRFC queue stuck or destination system down at dispatch time,Check tRFC monitor (SM58); reprocess stuck LUWs; confirm target availability,2026-04-17 11:11:33.911522,True
+0600000608,WMMBXY,INBOUND,BTP_INTEGRATION_SUITE,02,"Error passing data to port (outbound, dispatch)",tRFC queue stuck or destination system down at dispatch time,Check tRFC monitor (SM58); reprocess stuck LUWs; confirm target availability,2026-04-17 23:45:33.911522,True
+0600000712,DEBMAS,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-04-18 01:13:33.911522,True
+0600000439,INVOIC,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-04-18 02:39:33.911522,True
+0600000055,ORDERS,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-04-18 11:10:33.911522,True
+0600000710,ORDRSP,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-04-18 11:25:33.911522,True
+0600000660,DESADV,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-04-18 12:01:33.911522,True
+0600000300,ORDERS,INBOUND,ARIBA_NETWORK,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-04-18 21:36:33.911522,True
+0600000102,DESADV,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-04-18 22:09:33.911522,True
+0600000149,DESADV,OUTBOUND,EDI_GATEWAY,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-04-19 04:05:33.911522,True
+0600000003,DESADV,INBOUND,LEGACY_MAINFRAME,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-04-19 08:56:33.911522,False
+0600000018,DESADV,INBOUND,3PL_PROVIDER,02,"Error passing data to port (outbound, dispatch)",tRFC queue stuck or destination system down at dispatch time,Check tRFC monitor (SM58); reprocess stuck LUWs; confirm target availability,2026-04-19 10:12:33.911522,True
+0600000008,CREMAS,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-04-19 14:26:33.911522,True
+0600000603,CREMAS,INBOUND,CRM_SFDC,53,Application document posted,,,2026-04-20 03:08:33.911522,True
+0600000732,MATMAS,INBOUND,3PL_PROVIDER,02,"Error passing data to port (outbound, dispatch)",tRFC queue stuck or destination system down at dispatch time,Check tRFC monitor (SM58); reprocess stuck LUWs; confirm target availability,2026-04-20 05:52:33.911522,True
+0600000668,CREMAS,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-04-20 09:26:33.911522,True
+0600000605,ORDRSP,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-04-20 13:43:33.911522,True
+0600000648,WMMBXY,INBOUND,B2B_VAN_SPS,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-04-20 15:45:33.911522,False
+0600000526,CREMAS,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-04-20 17:10:33.911522,True
+0600000343,INVOIC,OUTBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-04-21 05:04:33.911522,True
+0600000316,MATMAS,OUTBOUND,3PL_PROVIDER,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-04-21 16:42:33.911522,False
+0600000512,ORDERS,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-04-21 17:26:33.911522,True
+0600000719,WMMBXY,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-04-21 18:00:33.911522,True
+0600000088,INVOIC,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-04-21 23:41:33.911522,True
+0600000389,INVOIC,OUTBOUND,WMS_MANHATTAN,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-04-22 09:11:33.911522,True
+0600000634,ORDRSP,OUTBOUND,WMS_MANHATTAN,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-04-22 16:47:33.911522,True
+0600000553,ORDERS,OUTBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-04-23 07:14:33.911522,True
+0600000474,ORDRSP,OUTBOUND,LEGACY_MAINFRAME,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-04-23 16:53:33.911522,True
+0600000640,DEBMAS,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-04-23 21:55:33.911522,True
+0600000413,ORDERS,OUTBOUND,LEGACY_MAINFRAME,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-04-24 02:06:33.911522,True
+0600000746,ORDRSP,INBOUND,BTP_INTEGRATION_SUITE,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-04-24 06:01:33.911522,False
+0600000646,CREMAS,INBOUND,WMS_MANHATTAN,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-04-24 06:49:33.911522,True
+0600000717,DESADV,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-04-24 08:47:33.911522,True
+0600000385,WMMBXY,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-04-24 10:29:33.911522,True
+0600000066,INVOIC,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-04-24 11:37:33.911522,True
+0600000585,CREMAS,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-04-25 16:27:33.911522,True
+0600000537,DESADV,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-04-25 17:02:33.911522,True
+0600000520,INVOIC,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-04-25 17:04:33.911522,True
+0600000173,DEBMAS,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-04-25 21:37:33.911522,True
+0600000221,INVOIC,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-04-25 22:33:33.911522,True
+0600000327,INVOIC,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-04-25 23:43:33.911522,True
+0600000694,ORDRSP,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-04-26 03:14:33.911522,True
+0600000406,WMMBXY,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-04-26 09:45:33.911522,True
+0600000229,DEBMAS,INBOUND,CRM_SFDC,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-04-26 11:43:33.911522,False
+0600000471,MATMAS,INBOUND,LEGACY_MAINFRAME,02,"Error passing data to port (outbound, dispatch)",tRFC queue stuck or destination system down at dispatch time,Check tRFC monitor (SM58); reprocess stuck LUWs; confirm target availability,2026-04-26 18:47:33.911522,True
+0600000531,ORDERS,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-04-27 02:46:33.911522,True
+0600000524,CREMAS,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-04-27 05:02:33.911522,True
+0600000338,CREMAS,INBOUND,CRM_SFDC,53,Application document posted,,,2026-04-27 08:19:33.911522,True
+0600000465,CREMAS,INBOUND,ARIBA_NETWORK,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-04-27 23:43:33.911522,False
+0600000786,ORDERS,INBOUND,3PL_PROVIDER,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-04-28 06:16:33.911522,True
+0600000151,DESADV,OUTBOUND,CRM_SFDC,02,"Error passing data to port (outbound, dispatch)",tRFC queue stuck or destination system down at dispatch time,Check tRFC monitor (SM58); reprocess stuck LUWs; confirm target availability,2026-04-28 11:26:33.911522,False
+0600000141,CREMAS,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-04-28 12:16:33.911522,True
+0600000370,ORDRSP,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-04-29 01:16:33.911522,True
+0600000783,CREMAS,OUTBOUND,LEGACY_MAINFRAME,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-04-29 01:29:33.911522,False
+0600000684,INVOIC,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-04-29 07:46:33.911522,True
+0600000079,ORDRSP,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-04-29 20:20:33.911522,True
+0600000618,WMMBXY,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-04-30 02:18:33.911522,True
+0600000147,ORDERS,OUTBOUND,CRM_SFDC,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-04-30 02:49:33.911522,False
+0600000725,INVOIC,OUTBOUND,EDI_GATEWAY,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-04-30 06:52:33.911522,True
+0600000231,DEBMAS,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-04-30 08:24:33.911522,True
+0600000097,DEBMAS,OUTBOUND,ARIBA_NETWORK,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-05-01 01:34:33.911522,False
+0600000442,INVOIC,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-05-01 03:11:33.911522,True
+0600000479,ORDRSP,OUTBOUND,3PL_PROVIDER,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-05-01 03:51:33.911522,True
+0600000305,WMMBXY,OUTBOUND,B2B_VAN_SPS,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-05-01 06:28:33.911522,True
+0600000649,DESADV,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-05-01 18:52:33.911522,True
+0600000034,DESADV,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-05-01 21:23:33.911522,True
+0600000596,INVOIC,INBOUND,B2B_VAN_SPS,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-05-02 05:05:33.911522,True
+0600000347,CREMAS,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-05-02 14:55:33.911522,True
+0600000696,DEBMAS,INBOUND,CRM_SFDC,53,Application document posted,,,2026-05-02 18:36:33.911522,True
+0600000171,WMMBXY,OUTBOUND,BTP_INTEGRATION_SUITE,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-05-03 05:52:33.911522,True
+0600000511,MATMAS,INBOUND,CRM_SFDC,53,Application document posted,,,2026-05-03 12:39:33.911522,True
+0600000367,ORDERS,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-05-03 14:32:33.911522,True
+0600000720,DEBMAS,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-05-03 19:24:33.911522,True
+0600000677,ORDRSP,INBOUND,3PL_PROVIDER,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-05-03 19:24:33.911522,True
+0600000753,MATMAS,OUTBOUND,EDI_GATEWAY,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-05-03 20:03:33.911522,False
+0600000204,WMMBXY,INBOUND,LEGACY_MAINFRAME,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-05-04 08:42:33.911522,True
+0600000027,MATMAS,INBOUND,WMS_MANHATTAN,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-05-05 00:48:33.911522,True
+0600000686,ORDERS,OUTBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-05-05 16:45:33.911522,True
+0600000073,MATMAS,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-05-06 05:56:33.911522,True
+0600000044,DEBMAS,OUTBOUND,3PL_PROVIDER,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-05-06 07:45:33.911522,True
+0600000382,WMMBXY,INBOUND,WMS_MANHATTAN,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-05-06 09:39:33.911522,True
+0600000626,WMMBXY,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-05-06 15:34:33.911522,True
+0600000423,WMMBXY,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-05-07 00:22:33.911522,True
+0600000488,ORDRSP,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-05-07 02:07:33.911522,True
+0600000425,ORDRSP,INBOUND,LEGACY_MAINFRAME,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-05-07 02:10:33.911522,False
+0600000708,DESADV,INBOUND,LEGACY_MAINFRAME,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-05-07 18:22:33.911522,False
+0600000757,DESADV,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-05-07 22:11:33.911522,True
+0600000161,DEBMAS,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-05-08 06:43:33.911522,True
+0600000632,DESADV,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-05-08 11:14:33.911522,True
+0600000252,MATMAS,OUTBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-05-08 11:15:33.911522,True
+0600000651,DESADV,INBOUND,LEGACY_MAINFRAME,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-05-08 14:04:33.911522,True
+0600000028,ORDERS,INBOUND,3PL_PROVIDER,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-05-08 15:22:33.911522,True
+0600000575,ORDRSP,INBOUND,BTP_INTEGRATION_SUITE,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-05-08 17:08:33.911522,True
+0600000359,DEBMAS,OUTBOUND,CRM_SFDC,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-05-09 01:08:33.911522,True
+0600000601,MATMAS,OUTBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-05-09 03:47:33.911522,True
+0600000499,INVOIC,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-05-09 18:48:33.911522,True
+0600000037,CREMAS,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-05-10 00:29:33.911522,True
+0600000081,CREMAS,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-05-10 01:59:33.911522,True
+0600000155,CREMAS,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-05-10 05:11:33.911522,True
+0600000595,DEBMAS,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-05-10 05:16:33.911522,True
+0600000350,MATMAS,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-05-10 15:20:33.911522,True
+0600000213,INVOIC,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-05-10 23:51:33.911522,True
+0600000005,CREMAS,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-05-11 03:33:33.911522,True
+0600000030,ORDRSP,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-05-12 12:13:33.911522,True
+0600000599,CREMAS,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-05-12 18:44:33.911522,True
+0600000673,CREMAS,OUTBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-05-12 22:55:33.911522,True
+0600000556,DESADV,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-05-13 11:51:33.911522,True
+0600000785,ORDERS,INBOUND,CRM_SFDC,53,Application document posted,,,2026-05-13 12:32:33.911522,True
+0600000510,ORDERS,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-05-13 22:17:33.911522,True
+0600000136,DEBMAS,INBOUND,CRM_SFDC,53,Application document posted,,,2026-05-14 03:39:33.911522,True
+0600000776,MATMAS,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-05-14 03:47:33.911522,True
+0600000675,WMMBXY,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-05-14 06:09:33.911522,True
+0600000021,MATMAS,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-05-14 06:38:33.911522,True
+0600000693,MATMAS,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-05-14 09:35:33.911522,True
+0600000516,INVOIC,OUTBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-05-14 09:39:33.911522,True
+0600000304,CREMAS,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-05-14 13:03:33.911522,True
+0600000144,ORDRSP,INBOUND,3PL_PROVIDER,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-05-14 20:18:33.911522,True
+0600000580,DEBMAS,INBOUND,LEGACY_MAINFRAME,02,"Error passing data to port (outbound, dispatch)",tRFC queue stuck or destination system down at dispatch time,Check tRFC monitor (SM58); reprocess stuck LUWs; confirm target availability,2026-05-14 21:50:33.911522,False
+0600000091,CREMAS,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-05-15 01:12:33.911522,True
+0600000609,DESADV,OUTBOUND,LEGACY_MAINFRAME,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-05-15 01:33:33.911522,False
+0600000411,ORDRSP,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-05-15 06:48:33.911522,True
+0600000106,ORDRSP,OUTBOUND,EDI_GATEWAY,53,Application document posted,,,2026-05-16 01:54:33.911522,True
+0600000172,WMMBXY,INBOUND,WMS_MANHATTAN,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-05-16 06:36:33.911522,True
+0600000024,ORDERS,INBOUND,WMS_MANHATTAN,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-05-16 08:45:33.911522,True
+0600000451,ORDRSP,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-05-16 11:29:33.911522,True
+0600000023,CREMAS,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-05-16 15:17:33.911522,True
+0600000341,ORDRSP,OUTBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-05-16 18:19:33.911522,True
+0600000545,MATMAS,OUTBOUND,EDI_GATEWAY,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-05-17 00:09:33.911522,True
+0600000627,WMMBXY,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-05-17 04:59:33.911522,True
+0600000435,DEBMAS,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-05-17 10:06:33.911522,True
+0600000006,WMMBXY,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-05-17 12:05:33.911522,True
+0600000139,INVOIC,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-05-17 23:37:33.911522,True
+0600000734,DEBMAS,OUTBOUND,WMS_MANHATTAN,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-05-18 00:19:33.911522,False
+0600000290,INVOIC,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-05-18 05:37:33.911522,True
+0600000272,WMMBXY,INBOUND,CRM_SFDC,53,Application document posted,,,2026-05-18 09:20:33.911522,True
+0600000459,ORDRSP,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-05-18 12:51:33.911522,True
+0600000606,MATMAS,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-05-18 20:13:33.911522,True
+0600000469,WMMBXY,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-05-18 20:52:33.911522,True
+0600000169,ORDRSP,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-05-19 00:44:33.911522,True
+0600000617,MATMAS,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-05-19 07:57:33.911522,True
+0600000422,DEBMAS,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-05-19 17:50:33.911522,True
+0600000274,INVOIC,INBOUND,ARIBA_NETWORK,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-05-19 20:41:33.911522,True
+0600000309,ORDERS,OUTBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-05-19 21:49:33.911522,True
+0600000212,DESADV,OUTBOUND,EDI_GATEWAY,53,Application document posted,,,2026-05-20 06:09:33.911522,True
+0600000041,DESADV,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-05-20 13:59:33.911522,True
+0600000159,CREMAS,OUTBOUND,ARIBA_NETWORK,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-05-20 18:24:33.911522,False
+0600000689,DESADV,OUTBOUND,B2B_VAN_SPS,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-05-20 20:00:33.911522,False
+0600000086,DESADV,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-05-21 01:10:33.911522,True
+0600000164,ORDRSP,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-05-21 04:31:33.911522,True
+0600000780,DEBMAS,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-05-21 10:47:33.911522,True
+0600000532,ORDERS,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-05-21 12:17:33.911522,True
+0600000687,ORDERS,OUTBOUND,B2B_VAN_SPS,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-05-21 19:24:33.911522,True
+0600000407,CREMAS,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-05-21 20:21:33.911522,True
+0600000179,CREMAS,INBOUND,CRM_SFDC,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-05-22 12:06:33.911522,False
+0600000509,WMMBXY,INBOUND,BTP_INTEGRATION_SUITE,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-05-22 14:09:33.911522,True
+0600000562,ORDERS,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-05-22 15:13:33.911522,True
+0600000198,MATMAS,OUTBOUND,LEGACY_MAINFRAME,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-05-22 15:39:33.911522,False
+0600000709,DESADV,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-05-22 20:36:33.911522,True
+0600000727,ORDRSP,INBOUND,WMS_MANHATTAN,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-05-24 05:15:33.911522,True
+0600000428,DESADV,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-05-24 05:45:33.911522,True
+0600000667,MATMAS,OUTBOUND,CRM_SFDC,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-05-24 06:39:33.911522,False
+0600000456,DEBMAS,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-05-24 15:08:33.911522,True
+0600000393,CREMAS,OUTBOUND,WMS_MANHATTAN,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-05-24 23:18:33.911522,True
+0600000401,DEBMAS,OUTBOUND,BTP_INTEGRATION_SUITE,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-05-25 13:24:33.911522,False
+0600000791,WMMBXY,INBOUND,BTP_INTEGRATION_SUITE,02,"Error passing data to port (outbound, dispatch)",tRFC queue stuck or destination system down at dispatch time,Check tRFC monitor (SM58); reprocess stuck LUWs; confirm target availability,2026-05-25 20:25:33.911522,True
+0600000792,MATMAS,INBOUND,EDI_GATEWAY,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-05-25 21:19:33.911522,True
+0600000318,ORDRSP,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-05-25 23:48:33.911522,True
+0600000454,ORDERS,INBOUND,CRM_SFDC,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-05-26 01:50:33.911522,False
+0600000584,DEBMAS,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-05-26 04:42:33.911522,True
+0600000467,ORDRSP,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-05-26 21:00:33.911522,True
+0600000458,ORDERS,INBOUND,CRM_SFDC,53,Application document posted,,,2026-05-26 21:58:33.911522,True
+0600000404,CREMAS,INBOUND,CRM_SFDC,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-05-27 00:28:33.911522,True
+0600000051,CREMAS,OUTBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-05-27 03:42:33.911522,True
+0600000789,ORDRSP,OUTBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-05-27 09:44:33.911522,True
+0600000598,WMMBXY,INBOUND,WMS_MANHATTAN,02,"Error passing data to port (outbound, dispatch)",tRFC queue stuck or destination system down at dispatch time,Check tRFC monitor (SM58); reprocess stuck LUWs; confirm target availability,2026-05-27 12:56:33.911522,True
+0600000299,ORDRSP,INBOUND,ARIBA_NETWORK,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-05-27 20:03:33.911522,True
+0600000373,DESADV,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-05-27 22:56:33.911522,True
+0600000052,ORDERS,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-05-28 06:19:33.911522,True
+0600000741,INVOIC,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-05-28 11:29:33.911522,True
+0600000395,CREMAS,OUTBOUND,3PL_PROVIDER,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-05-28 15:31:33.911522,True
+0600000787,ORDRSP,OUTBOUND,B2B_VAN_SPS,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-05-28 20:18:33.911522,True
+0600000201,DESADV,INBOUND,WMS_MANHATTAN,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-05-28 21:12:33.911522,False
+0600000398,INVOIC,INBOUND,CRM_SFDC,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-05-29 09:02:33.911522,True
+0600000443,ORDERS,OUTBOUND,EDI_GATEWAY,53,Application document posted,,,2026-05-29 09:24:33.911522,True
+0600000623,DESADV,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-05-29 11:47:33.911522,True
+0600000716,ORDRSP,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-05-29 13:35:33.911522,True
+0600000203,ORDERS,OUTBOUND,ARIBA_NETWORK,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-05-29 21:49:33.911522,True
+0600000094,DEBMAS,OUTBOUND,EDI_GATEWAY,53,Application document posted,,,2026-05-29 23:00:33.911522,True
+0600000043,CREMAS,INBOUND,CRM_SFDC,53,Application document posted,,,2026-05-29 23:39:33.911522,True
+0600000481,DEBMAS,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-05-30 08:35:33.911522,True
+0600000325,WMMBXY,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-05-31 02:35:33.911522,True
+0600000472,CREMAS,OUTBOUND,WMS_MANHATTAN,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-05-31 05:04:33.911522,True
+0600000222,ORDRSP,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-05-31 12:29:33.911522,True
+0600000452,CREMAS,OUTBOUND,EDI_GATEWAY,02,"Error passing data to port (outbound, dispatch)",tRFC queue stuck or destination system down at dispatch time,Check tRFC monitor (SM58); reprocess stuck LUWs; confirm target availability,2026-06-02 00:08:33.911522,False
+0600000448,ORDERS,OUTBOUND,ARIBA_NETWORK,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-06-02 08:47:33.911522,True
+0600000283,DESADV,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-06-02 13:34:33.911522,True
+0600000505,ORDERS,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-06-02 17:02:33.911522,True
+0600000137,MATMAS,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-06-02 19:44:33.911522,True
+0600000464,ORDRSP,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-06-03 00:28:33.911522,True
+0600000174,DEBMAS,INBOUND,B2B_VAN_SPS,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-06-03 09:49:33.911522,True
+0600000216,WMMBXY,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-06-03 12:31:33.911522,True
+0600000152,WMMBXY,INBOUND,WMS_MANHATTAN,02,"Error passing data to port (outbound, dispatch)",tRFC queue stuck or destination system down at dispatch time,Check tRFC monitor (SM58); reprocess stuck LUWs; confirm target availability,2026-06-03 19:18:33.911522,True
+0600000031,DESADV,OUTBOUND,LEGACY_MAINFRAME,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-06-03 22:14:33.911522,True
+0600000663,CREMAS,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-06-04 05:13:33.911522,True
+0600000348,MATMAS,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-06-04 08:10:33.911522,True
+0600000046,ORDRSP,OUTBOUND,WMS_MANHATTAN,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-06-04 09:43:33.911522,True
+0600000166,DEBMAS,OUTBOUND,3PL_PROVIDER,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-06-04 10:07:33.911522,True
+0600000056,ORDRSP,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-06-04 13:19:33.911522,True
+0600000167,ORDRSP,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-06-04 18:21:33.911522,True
+0600000737,DEBMAS,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-06-04 19:32:33.911522,True
+0600000332,ORDRSP,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-06-04 19:50:33.911522,True
+0600000243,DEBMAS,INBOUND,3PL_PROVIDER,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-06-05 04:25:33.911522,False
+0600000681,MATMAS,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-06-05 04:55:33.911522,True
+0600000770,ORDRSP,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-06-05 10:34:33.911522,True
+0600000293,DESADV,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-06-05 20:26:33.911522,True
+0600000200,ORDERS,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-06-05 22:04:33.911522,True
+0600000492,WMMBXY,OUTBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-06-06 09:53:33.911522,True
+0600000337,ORDRSP,OUTBOUND,EDI_GATEWAY,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-06-06 15:31:33.911522,True
+0600000381,CREMAS,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-06-06 19:34:33.911522,True
+0600000130,DEBMAS,INBOUND,3PL_PROVIDER,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-06-07 00:03:33.911522,True
+0600000666,CREMAS,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-06-07 00:18:33.911522,True
+0600000017,INVOIC,INBOUND,BTP_INTEGRATION_SUITE,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-06-07 12:24:33.911522,True
+0600000539,MATMAS,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-06-07 15:59:33.911522,True
+0600000455,INVOIC,INBOUND,EDI_GATEWAY,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-06-07 16:42:33.911522,True
+0600000354,WMMBXY,OUTBOUND,LEGACY_MAINFRAME,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-06-07 17:07:33.911522,True
+0600000049,DEBMAS,INBOUND,BTP_INTEGRATION_SUITE,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-06-07 22:20:33.911522,True
+0600000441,CREMAS,OUTBOUND,WMS_MANHATTAN,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-06-08 04:09:33.911522,True
+0600000178,DEBMAS,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-06-08 04:45:33.911522,True
+0600000384,ORDRSP,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-06-08 16:02:33.911522,True
+0600000690,DEBMAS,INBOUND,3PL_PROVIDER,02,"Error passing data to port (outbound, dispatch)",tRFC queue stuck or destination system down at dispatch time,Check tRFC monitor (SM58); reprocess stuck LUWs; confirm target availability,2026-06-08 16:24:33.911522,True
+0600000314,DESADV,INBOUND,WMS_MANHATTAN,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-06-08 18:55:33.911522,True
+0600000103,ORDRSP,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-06-09 01:22:33.911522,True
+0600000378,MATMAS,INBOUND,CRM_SFDC,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-06-09 04:47:33.911522,True
+0600000540,MATMAS,OUTBOUND,B2B_VAN_SPS,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-06-09 09:30:33.911522,False
+0600000387,MATMAS,OUTBOUND,EDI_GATEWAY,53,Application document posted,,,2026-06-09 10:20:33.911522,True
+0600000132,DEBMAS,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-06-09 10:39:33.911522,True
+0600000622,INVOIC,OUTBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-06-09 15:43:33.911522,True
+0600000125,ORDRSP,INBOUND,EDI_GATEWAY,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-06-09 21:07:33.911522,True
+0600000760,WMMBXY,OUTBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-06-09 22:00:33.911522,True
+0600000321,DEBMAS,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-06-10 00:30:33.911522,True
+0600000268,ORDRSP,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-06-10 11:31:33.911522,True
+0600000077,DESADV,INBOUND,LEGACY_MAINFRAME,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-06-10 13:33:33.911522,True
+0600000765,WMMBXY,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-06-10 17:02:33.911522,True
+0600000706,CREMAS,INBOUND,CRM_SFDC,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-06-10 18:12:33.911522,False
+0600000674,CREMAS,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-06-10 23:58:33.911522,True
+0600000669,INVOIC,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-06-11 05:24:33.911522,True
+0600000493,CREMAS,OUTBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-06-11 07:47:33.911522,True
+0600000033,DEBMAS,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-06-11 14:24:33.911522,True
+0600000642,MATMAS,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-06-11 17:16:33.911522,True
+0600000721,WMMBXY,INBOUND,EDI_GATEWAY,02,"Error passing data to port (outbound, dispatch)",tRFC queue stuck or destination system down at dispatch time,Check tRFC monitor (SM58); reprocess stuck LUWs; confirm target availability,2026-06-11 18:59:33.911522,True
+0600000296,DESADV,INBOUND,LEGACY_MAINFRAME,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-06-11 20:42:33.911522,True
+0600000769,CREMAS,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-06-12 02:06:33.911522,True
+0600000267,DEBMAS,OUTBOUND,LEGACY_MAINFRAME,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-06-12 12:33:33.911522,True
+0600000193,ORDERS,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-06-12 16:08:33.911522,True
+0600000100,DESADV,OUTBOUND,BTP_INTEGRATION_SUITE,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-06-12 16:09:33.911522,True
+0600000199,WMMBXY,OUTBOUND,LEGACY_MAINFRAME,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-06-12 17:30:33.911522,True
+0600000476,CREMAS,OUTBOUND,LEGACY_MAINFRAME,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-06-12 22:00:33.911522,True
+0600000069,WMMBXY,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-06-13 07:51:33.911522,True
+0600000744,WMMBXY,OUTBOUND,B2B_VAN_SPS,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-06-13 12:20:33.911522,False
+0600000529,CREMAS,OUTBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-06-13 12:44:33.911522,True
+0600000177,MATMAS,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-06-13 13:23:33.911522,True
+0600000552,MATMAS,OUTBOUND,3PL_PROVIDER,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-06-13 18:51:33.911522,True
+0600000762,INVOIC,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-06-14 00:32:33.911522,True
+0600000450,ORDERS,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-06-14 11:28:33.911522,True
+0600000711,WMMBXY,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-06-15 14:36:33.911522,True
+0600000462,ORDERS,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-06-16 00:01:33.911522,True
+0600000758,CREMAS,INBOUND,LEGACY_MAINFRAME,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-06-16 02:19:33.911522,True
+0600000298,WMMBXY,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-06-16 20:47:33.911522,True
+0600000013,DESADV,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-06-17 04:17:33.911522,True
+0600000207,DESADV,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-06-17 09:23:33.911522,True
+0600000747,ORDERS,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-06-17 11:49:33.911522,True
+0600000764,INVOIC,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-06-17 15:20:33.911522,True
+0600000702,INVOIC,OUTBOUND,EDI_GATEWAY,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-06-18 03:19:33.911522,False
+0600000713,ORDRSP,OUTBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-06-18 11:38:33.911522,True
+0600000025,WMMBXY,OUTBOUND,ARIBA_NETWORK,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-06-18 18:08:33.911522,True
+0600000233,CREMAS,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-06-18 23:30:33.911522,True
+0600000754,ORDERS,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-06-19 10:28:33.911522,True
+0600000258,MATMAS,OUTBOUND,BTP_INTEGRATION_SUITE,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-06-19 13:29:33.911522,True
+0600000386,MATMAS,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-06-19 20:48:33.911522,True
+0600000798,MATMAS,OUTBOUND,EDI_GATEWAY,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-06-19 22:39:33.911522,True
+0600000329,INVOIC,OUTBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-06-19 23:46:33.911522,True
+0600000311,ORDERS,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-06-20 20:51:33.911522,True
+0600000225,INVOIC,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-06-21 20:10:33.911522,True
+0600000613,INVOIC,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-06-21 20:16:33.911522,True
+0600000276,ORDRSP,OUTBOUND,EDI_GATEWAY,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-06-22 03:36:33.911522,True
+0600000759,CREMAS,OUTBOUND,EDI_GATEWAY,53,Application document posted,,,2026-06-22 05:41:33.911522,True
+0600000284,DEBMAS,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-06-22 08:37:33.911522,True
+0600000592,WMMBXY,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-06-23 00:51:33.911522,True
+0600000680,CREMAS,INBOUND,3PL_PROVIDER,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-06-23 09:25:33.911522,False
+0600000695,CREMAS,INBOUND,3PL_PROVIDER,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-06-23 10:13:33.911522,True
+0600000345,ORDERS,INBOUND,ARIBA_NETWORK,02,"Error passing data to port (outbound, dispatch)",tRFC queue stuck or destination system down at dispatch time,Check tRFC monitor (SM58); reprocess stuck LUWs; confirm target availability,2026-06-23 15:55:33.911522,False
+0600000559,DEBMAS,INBOUND,CRM_SFDC,53,Application document posted,,,2026-06-23 21:57:33.911522,True
+0600000266,INVOIC,INBOUND,3PL_PROVIDER,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-06-24 00:08:33.911522,True
+0600000542,DEBMAS,INBOUND,ARIBA_NETWORK,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-06-24 01:12:33.911522,True
+0600000061,DEBMAS,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-06-24 05:18:33.911522,True
+0600000771,ORDRSP,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-06-24 05:52:33.911522,True
+0600000590,MATMAS,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-06-25 00:02:33.911522,True
+0600000728,WMMBXY,OUTBOUND,B2B_VAN_SPS,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-06-25 04:29:33.911522,True
+0600000494,MATMAS,OUTBOUND,3PL_PROVIDER,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-06-25 16:49:33.911522,False
+0600000654,CREMAS,OUTBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-06-25 20:03:33.911522,True
+0600000480,WMMBXY,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-06-26 11:06:33.911522,True
+0600000075,ORDERS,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-06-27 02:57:33.911522,True
+0600000577,MATMAS,INBOUND,ARIBA_NETWORK,02,"Error passing data to port (outbound, dispatch)",tRFC queue stuck or destination system down at dispatch time,Check tRFC monitor (SM58); reprocess stuck LUWs; confirm target availability,2026-06-27 09:13:33.911522,False
+0600000449,ORDRSP,OUTBOUND,3PL_PROVIDER,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-06-27 21:03:33.911522,True
+0600000558,ORDRSP,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-06-27 21:48:33.911522,True
+0600000485,INVOIC,OUTBOUND,EDI_GATEWAY,53,Application document posted,,,2026-06-27 22:09:33.911522,True
+0600000119,DESADV,OUTBOUND,EDI_GATEWAY,53,Application document posted,,,2026-06-27 23:57:33.911522,True
+0600000658,ORDERS,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-06-28 05:43:33.911522,True
+0600000059,ORDERS,OUTBOUND,3PL_PROVIDER,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-06-28 08:36:33.911522,False
+0600000497,ORDERS,OUTBOUND,3PL_PROVIDER,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-06-28 14:49:33.911522,True
+0600000578,DESADV,INBOUND,B2B_VAN_SPS,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-06-28 20:10:33.911522,True
+0600000095,DESADV,OUTBOUND,EDI_GATEWAY,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-06-28 21:35:33.911522,False
+0600000665,WMMBXY,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-06-29 02:19:33.911522,True
+0600000579,DEBMAS,OUTBOUND,3PL_PROVIDER,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-06-29 07:08:33.911522,True
+0600000774,CREMAS,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-06-29 11:37:33.911522,True
+0600000096,DEBMAS,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-06-29 18:33:33.911522,True
+0600000002,ORDERS,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-06-29 19:17:33.911522,True
+0600000426,CREMAS,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-06-30 05:27:33.911522,True
+0600000022,MATMAS,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-06-30 07:47:33.911522,True
+0600000211,WMMBXY,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-06-30 11:28:33.911522,True
+0600000528,INVOIC,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-06-30 11:46:33.911522,True
+0600000322,ORDRSP,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-06-30 18:33:33.911522,True
+0600000241,CREMAS,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-06-30 22:10:33.911522,True
+0600000007,DESADV,OUTBOUND,CRM_SFDC,02,"Error passing data to port (outbound, dispatch)",tRFC queue stuck or destination system down at dispatch time,Check tRFC monitor (SM58); reprocess stuck LUWs; confirm target availability,2026-07-01 08:28:33.911522,True
+0600000362,ORDERS,OUTBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-07-01 15:42:33.911522,True
+0600000436,MATMAS,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-07-01 16:56:33.911522,True
+0600000346,WMMBXY,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-07-02 00:43:33.911522,True
+0600000057,CREMAS,INBOUND,B2B_VAN_SPS,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-07-02 09:30:33.911522,False
+0600000530,DEBMAS,INBOUND,WMS_MANHATTAN,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-07-02 13:08:33.911522,True
+0600000039,WMMBXY,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-07-02 13:27:33.911522,True
+0600000672,ORDERS,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-07-02 14:00:33.911522,True
+0600000251,ORDERS,OUTBOUND,EDI_GATEWAY,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-07-02 18:47:33.911522,True
+0600000281,MATMAS,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-07-03 04:31:33.911522,True
+0600000495,MATMAS,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-07-03 05:10:33.911522,True
+0600000205,MATMAS,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-07-03 07:55:33.911522,True
+0600000035,DESADV,OUTBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-07-03 11:35:33.911522,True
+0600000067,ORDERS,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-07-03 14:28:33.911522,True
+0600000612,WMMBXY,OUTBOUND,CRM_SFDC,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-07-03 20:57:33.911522,True
+0600000768,ORDRSP,INBOUND,ARIBA_NETWORK,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-07-03 22:21:33.911522,True
+0600000186,MATMAS,OUTBOUND,ARIBA_NETWORK,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-07-04 02:28:33.911522,False
+0600000240,INVOIC,INBOUND,CRM_SFDC,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-07-04 07:58:33.911522,False
+0600000042,INVOIC,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-07-04 19:06:33.911522,True
+0600000342,WMMBXY,OUTBOUND,CRM_SFDC,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-07-04 23:00:33.911522,False
+0600000782,DEBMAS,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-07-05 11:16:33.911522,True
+0600000496,CREMAS,INBOUND,3PL_PROVIDER,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-07-06 01:00:33.911522,True
+0600000001,ORDRSP,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-07-06 12:24:33.911522,True
+0600000656,MATMAS,INBOUND,WMS_MANHATTAN,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-07-06 15:54:33.911522,True
+0600000249,DESADV,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-07-06 20:58:33.911522,True
+0600000080,CREMAS,OUTBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-07-06 23:31:33.911522,True
+0600000078,WMMBXY,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-07-07 05:30:33.911522,True
+0600000369,MATMAS,INBOUND,BTP_INTEGRATION_SUITE,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-07-07 06:52:33.911522,True
+0600000707,DEBMAS,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-07-07 15:47:33.911522,True
+0600000781,MATMAS,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-07-07 17:47:33.911522,True
+0600000135,INVOIC,OUTBOUND,EDI_GATEWAY,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-07-08 04:30:33.911522,True
+0600000104,CREMAS,INBOUND,B2B_VAN_SPS,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-07-08 07:26:33.911522,False
+0600000733,CREMAS,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-07-08 16:57:33.911522,True
+0600000182,MATMAS,INBOUND,EDI_GATEWAY,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-07-08 17:11:33.911522,True
+0600000016,WMMBXY,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-07-08 21:13:33.911522,True
+0600000148,MATMAS,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-07-08 21:55:33.911522,True
+0600000349,MATMAS,OUTBOUND,LEGACY_MAINFRAME,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-07-09 09:53:33.911522,False
+0600000115,CREMAS,OUTBOUND,EDI_GATEWAY,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-07-09 10:36:33.911522,False
+0600000544,CREMAS,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-07-09 14:31:33.911522,True
+0600000600,ORDERS,INBOUND,CRM_SFDC,53,Application document posted,,,2026-07-09 15:36:33.911522,True
+0600000699,ORDRSP,INBOUND,ARIBA_NETWORK,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-07-09 18:38:33.911522,True
+0600000536,ORDRSP,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-07-09 18:50:33.911522,True
+0600000085,WMMBXY,OUTBOUND,EDI_GATEWAY,53,Application document posted,,,2026-07-09 20:06:33.911522,True
+0600000264,ORDERS,OUTBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-07-09 21:29:33.911522,True
+0600000153,DEBMAS,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-07-09 21:39:33.911522,True
+0600000611,DESADV,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-07-09 23:36:33.911522,True
+0600000302,WMMBXY,INBOUND,BTP_INTEGRATION_SUITE,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-07-10 02:35:33.911522,True
+0600000565,CREMAS,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-07-10 14:55:33.911522,True
+0600000775,CREMAS,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-07-11 20:48:33.911522,True
+0600000255,INVOIC,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-07-11 23:31:33.911522,True
+0600000453,INVOIC,INBOUND,LEGACY_MAINFRAME,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-07-12 00:18:33.911522,True
+0600000277,MATMAS,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-07-12 05:15:33.911522,True
+0600000583,CREMAS,INBOUND,EDI_GATEWAY,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-07-12 06:54:33.911522,True
+0600000416,ORDERS,OUTBOUND,BTP_INTEGRATION_SUITE,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-07-12 10:03:33.911522,True
+0600000082,DESADV,OUTBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-07-13 10:23:33.911522,True
+0600000533,INVOIC,OUTBOUND,EDI_GATEWAY,53,Application document posted,,,2026-07-13 12:04:33.911522,True
+0600000438,INVOIC,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-07-13 13:31:33.911522,True
+0600000230,CREMAS,INBOUND,ARIBA_NETWORK,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-07-13 19:54:33.911522,True
+0600000183,WMMBXY,OUTBOUND,EDI_GATEWAY,02,"Error passing data to port (outbound, dispatch)",tRFC queue stuck or destination system down at dispatch time,Check tRFC monitor (SM58); reprocess stuck LUWs; confirm target availability,2026-07-13 20:22:33.911522,True
+0600000247,ORDERS,OUTBOUND,EDI_GATEWAY,53,Application document posted,,,2026-07-14 02:55:33.911522,True
+0600000396,WMMBXY,OUTBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-07-14 04:52:33.911522,True
+0600000570,CREMAS,INBOUND,BTP_INTEGRATION_SUITE,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-07-14 08:27:33.911522,True
+0600000263,DEBMAS,INBOUND,CRM_SFDC,53,Application document posted,,,2026-07-14 08:42:33.911522,True
+0600000508,DEBMAS,OUTBOUND,LEGACY_MAINFRAME,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-07-14 19:44:33.911522,False
+0600000582,DESADV,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-07-14 19:56:33.911522,True
+0600000797,INVOIC,INBOUND,LEGACY_MAINFRAME,02,"Error passing data to port (outbound, dispatch)",tRFC queue stuck or destination system down at dispatch time,Check tRFC monitor (SM58); reprocess stuck LUWs; confirm target availability,2026-07-15 04:48:33.911522,True
+0600000361,ORDERS,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-07-15 06:57:33.911522,True
+0600000557,ORDERS,OUTBOUND,EDI_GATEWAY,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-07-15 10:26:33.911522,True
+0600000521,INVOIC,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-07-16 00:20:33.911522,True
+0600000375,CREMAS,OUTBOUND,LEGACY_MAINFRAME,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-07-16 01:06:33.911522,True
+0600000750,MATMAS,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-07-16 06:29:33.911522,True
+0600000670,ORDERS,OUTBOUND,3PL_PROVIDER,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-07-16 11:46:33.911522,False
+0600000131,DESADV,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-07-16 20:12:33.911522,True
+0600000190,DEBMAS,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-07-17 00:01:33.911522,True
+0600000614,INVOIC,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-07-17 04:00:33.911522,True
+0600000550,DESADV,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-07-17 08:46:33.911522,True
+0600000635,INVOIC,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-07-17 10:26:33.911522,True
+0600000486,ORDRSP,OUTBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-07-17 12:08:33.911522,True
+0600000543,INVOIC,OUTBOUND,EDI_GATEWAY,53,Application document posted,,,2026-07-18 02:20:33.911522,True
+0600000250,ORDERS,OUTBOUND,EDI_GATEWAY,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-07-18 04:52:33.911522,False
+0600000619,MATMAS,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-07-18 11:59:33.911522,True
+0600000269,INVOIC,OUTBOUND,3PL_PROVIDER,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-07-18 12:41:33.911522,True
+0600000244,ORDERS,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-07-19 02:26:33.911522,True
+0600000723,CREMAS,OUTBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-07-19 05:21:33.911522,True
+0600000109,CREMAS,INBOUND,ARIBA_NETWORK,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-07-19 08:25:33.911522,True
+0600000636,DESADV,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-07-19 14:29:33.911522,True
+0600000399,CREMAS,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-07-19 16:23:33.911522,True
+0600000560,ORDERS,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-07-19 17:20:33.911522,True
+0600000287,CREMAS,OUTBOUND,BTP_INTEGRATION_SUITE,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-07-19 18:09:33.911522,True
+0600000113,WMMBXY,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-07-19 18:42:33.911522,True
+0600000589,DEBMAS,INBOUND,ARIBA_NETWORK,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-07-19 23:26:33.911522,True
+0600000032,MATMAS,INBOUND,CRM_SFDC,53,Application document posted,,,2026-07-20 03:56:33.911522,True
+0600000692,DESADV,OUTBOUND,BTP_INTEGRATION_SUITE,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-07-20 17:49:33.911522,True
+0600000108,CREMAS,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-07-20 20:44:33.911522,True
+0600000210,DESADV,INBOUND,CRM_SFDC,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-07-21 02:50:33.911522,True
+0600000330,ORDERS,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-07-21 06:00:33.911522,True
+0600000236,WMMBXY,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-07-21 08:02:33.911522,True
+0600000424,DEBMAS,OUTBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-07-21 18:24:33.911522,True
+0600000647,ORDERS,INBOUND,CRM_SFDC,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-07-22 01:15:33.911522,True
+0600000403,CREMAS,OUTBOUND,EDI_GATEWAY,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-07-22 15:40:33.911522,True
+0600000220,DESADV,INBOUND,CRM_SFDC,53,Application document posted,,,2026-07-22 16:18:33.911522,True
+0600000165,ORDERS,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-07-22 23:11:33.911522,True
+0600000564,WMMBXY,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-07-23 02:49:33.911522,True
+0600000288,DEBMAS,OUTBOUND,LEGACY_MAINFRAME,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-07-23 09:10:33.911522,True
+0600000437,DESADV,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-07-23 11:17:33.911522,True
+0600000219,DEBMAS,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-07-23 22:58:33.911522,True
+0600000324,DEBMAS,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-07-24 04:18:33.911522,True
+0600000093,ORDERS,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-07-24 14:30:33.911522,True
+0600000090,ORDERS,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-07-25 19:45:33.911522,True
+0600000698,CREMAS,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-07-25 23:35:33.911522,True
+0600000019,MATMAS,OUTBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-07-26 08:48:33.911522,True
+0600000541,ORDERS,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-07-26 09:03:33.911522,True
+0600000602,ORDRSP,INBOUND,CRM_SFDC,53,Application document posted,,,2026-07-26 10:39:33.911522,True
+0600000502,ORDERS,OUTBOUND,LEGACY_MAINFRAME,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-07-26 13:01:33.911522,False
+0600000195,ORDRSP,INBOUND,CRM_SFDC,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-07-26 13:49:33.911522,True
+0600000228,MATMAS,OUTBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-07-26 16:26:33.911522,True
+0600000587,MATMAS,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-07-27 03:55:33.911522,True
+0600000087,DEBMAS,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-07-27 09:30:33.911522,True
+0600000181,WMMBXY,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-07-27 17:26:33.911522,True
+0600000339,CREMAS,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-07-28 11:06:33.911522,True
+0600000514,DEBMAS,INBOUND,BTP_INTEGRATION_SUITE,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-07-28 13:49:33.911522,True
+0600000795,DESADV,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-07-28 19:16:33.911522,True
+0600000470,MATMAS,INBOUND,CRM_SFDC,53,Application document posted,,,2026-07-28 21:20:33.911522,True
+0600000076,DEBMAS,INBOUND,ARIBA_NETWORK,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-07-29 11:22:33.911522,False
+0600000763,WMMBXY,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-07-29 15:14:33.911522,True
+0600000331,CREMAS,INBOUND,WMS_MANHATTAN,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-07-30 10:02:33.911522,True
+0600000286,CREMAS,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-07-30 20:51:33.911522,True
+0600000735,ORDRSP,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-07-30 23:04:33.911522,True
+0600000429,MATMAS,OUTBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-07-31 02:11:33.911522,True
+0600000527,MATMAS,OUTBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-07-31 03:40:33.911522,True
+0600000271,INVOIC,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-07-31 11:22:33.911522,True
+0600000260,CREMAS,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-07-31 13:15:33.911522,True
+0600000315,INVOIC,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-07-31 13:33:33.911522,True
+0600000098,CREMAS,OUTBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-07-31 21:58:33.911522,True
+0600000320,ORDERS,OUTBOUND,3PL_PROVIDER,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-07-31 22:39:33.911522,False
+0600000383,DESADV,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-07-31 23:24:33.911522,True
+0600000638,CREMAS,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-08-01 20:51:33.911522,True
+0600000038,WMMBXY,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-08-02 14:25:33.911522,True
+0600000246,DESADV,OUTBOUND,B2B_VAN_SPS,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-08-02 14:47:33.911522,True
+0600000191,INVOIC,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-08-03 12:24:33.911522,True
+0600000124,ORDERS,OUTBOUND,WMS_MANHATTAN,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-08-03 15:59:33.911522,True
+0600000630,ORDRSP,OUTBOUND,LEGACY_MAINFRAME,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-08-03 19:59:33.911522,True
+0600000506,INVOIC,INBOUND,3PL_PROVIDER,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-08-04 00:32:33.911522,True
+0600000262,DEBMAS,INBOUND,LEGACY_MAINFRAME,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-08-04 01:11:33.911522,False
+0600000503,DEBMAS,INBOUND,B2B_VAN_SPS,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-08-04 06:41:33.911522,True
+0600000127,ORDRSP,INBOUND,3PL_PROVIDER,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-08-04 10:52:33.911522,True
+0600000790,ORDERS,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-08-04 13:05:33.911522,True
+0600000477,ORDRSP,OUTBOUND,CRM_SFDC,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-08-04 14:14:33.911522,True
+0600000140,MATMAS,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-08-04 17:27:33.911522,True
+0600000466,CREMAS,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-08-04 18:39:33.911522,True
+0600000185,WMMBXY,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-08-05 07:20:33.911522,True
+0600000653,ORDERS,INBOUND,B2B_VAN_SPS,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-08-05 07:55:33.911522,True
+0600000409,INVOIC,INBOUND,BTP_INTEGRATION_SUITE,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-08-05 15:07:33.911522,False
+0600000146,INVOIC,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-08-06 05:35:33.911522,True
+0600000058,CREMAS,INBOUND,ARIBA_NETWORK,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-08-06 06:01:33.911522,True
+0600000050,MATMAS,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-08-06 06:08:33.911522,True
+0600000363,CREMAS,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-08-06 18:19:33.911522,True
+0600000679,ORDRSP,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-08-07 01:27:33.911522,True
+0600000226,INVOIC,OUTBOUND,CRM_SFDC,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-08-07 05:40:33.911522,True
+0600000661,DESADV,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-08-07 17:17:33.911522,True
+0600000390,DESADV,INBOUND,3PL_PROVIDER,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-08-07 19:10:33.911522,False
+0600000643,ORDERS,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-08-07 22:04:33.911522,True
+0600000463,DESADV,OUTBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-08-07 23:52:33.911522,True
+0600000715,ORDRSP,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-08-08 14:19:33.911522,True
+0600000414,MATMAS,OUTBOUND,LEGACY_MAINFRAME,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-08-08 14:38:33.911522,False
+0600000567,DESADV,INBOUND,ARIBA_NETWORK,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-08-08 20:41:33.911522,False
+0600000355,CREMAS,INBOUND,ARIBA_NETWORK,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-08-08 23:06:33.911522,True
+0600000145,MATMAS,INBOUND,3PL_PROVIDER,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-08-09 03:18:33.911522,True
+0600000431,DESADV,OUTBOUND,WMS_MANHATTAN,02,"Error passing data to port (outbound, dispatch)",tRFC queue stuck or destination system down at dispatch time,Check tRFC monitor (SM58); reprocess stuck LUWs; confirm target availability,2026-08-10 02:39:33.911522,False
+0600000101,DESADV,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-08-10 04:09:33.911522,True
+0600000121,INVOIC,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-08-10 15:17:33.911522,True
+0600000704,DEBMAS,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-08-10 16:27:33.911522,True
+0600000215,ORDRSP,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-08-10 17:03:33.911522,True
+0600000223,MATMAS,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-08-10 19:10:33.911522,True
+0600000372,ORDERS,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-08-10 21:05:33.911522,True
+0600000700,CREMAS,INBOUND,WMS_MANHATTAN,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-08-10 21:41:33.911522,True
+0600000307,DEBMAS,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-08-10 21:41:33.911522,True
+0600000461,ORDRSP,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-08-11 01:34:33.911522,True
+0600000447,DESADV,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-08-11 02:33:33.911522,True
+0600000498,DEBMAS,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-08-11 11:14:33.911522,True
+0600000168,CREMAS,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-08-11 14:00:33.911522,True
+0600000060,CREMAS,OUTBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-08-11 15:17:33.911522,True
+0600000133,INVOIC,INBOUND,LEGACY_MAINFRAME,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-08-11 16:22:33.911522,True
+0600000208,MATMAS,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-08-11 17:52:33.911522,True
+0600000546,ORDERS,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-08-13 01:08:33.911522,True
+0600000074,DEBMAS,INBOUND,WMS_MANHATTAN,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-08-13 01:41:33.911522,True
+0600000012,CREMAS,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-08-13 02:06:33.911522,True
+0600000412,ORDERS,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-08-13 06:16:33.911522,True
+0600000040,INVOIC,INBOUND,LEGACY_MAINFRAME,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-08-13 16:59:33.911522,True
+0600000227,DEBMAS,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-08-13 18:30:33.911522,True
+0600000731,CREMAS,OUTBOUND,EDI_GATEWAY,53,Application document posted,,,2026-08-13 18:38:33.911522,True
+0600000691,WMMBXY,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-08-13 19:42:33.911522,True
+0600000507,ORDRSP,OUTBOUND,EDI_GATEWAY,53,Application document posted,,,2026-08-14 16:55:33.911522,True
+0600000534,DEBMAS,OUTBOUND,LEGACY_MAINFRAME,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-08-14 18:30:33.911522,True
+0600000705,MATMAS,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-08-14 23:06:33.911522,True
+0600000767,WMMBXY,OUTBOUND,B2B_VAN_SPS,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-08-15 02:53:33.911522,True
+0600000645,DESADV,OUTBOUND,ARIBA_NETWORK,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-08-15 07:13:33.911522,True
+0600000235,MATMAS,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-08-15 13:28:33.911522,True
+0600000352,DEBMAS,OUTBOUND,CRM_SFDC,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-08-15 18:37:33.911522,True
+0600000604,MATMAS,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-08-15 19:52:33.911522,True
+0600000150,WMMBXY,INBOUND,CRM_SFDC,53,Application document posted,,,2026-08-15 23:51:33.911522,True
+0600000475,DESADV,OUTBOUND,EDI_GATEWAY,53,Application document posted,,,2026-08-16 00:45:33.911522,True
+0600000376,CREMAS,INBOUND,ARIBA_NETWORK,02,"Error passing data to port (outbound, dispatch)",tRFC queue stuck or destination system down at dispatch time,Check tRFC monitor (SM58); reprocess stuck LUWs; confirm target availability,2026-08-16 04:01:33.911522,True
+0600000275,CREMAS,OUTBOUND,3PL_PROVIDER,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-08-16 05:55:33.911522,True
+0600000379,DEBMAS,OUTBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-08-16 10:12:33.911522,True
+0600000417,INVOIC,OUTBOUND,BTP_INTEGRATION_SUITE,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-08-16 18:39:33.911522,True
+0600000522,MATMAS,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-08-17 14:25:33.911522,True
+0600000306,DESADV,INBOUND,EDI_GATEWAY,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-08-18 04:49:33.911522,True
+0600000261,DESADV,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-08-18 08:03:33.911522,True
+0600000620,MATMAS,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-08-18 14:24:33.911522,True
+0600000468,INVOIC,INBOUND,CRM_SFDC,53,Application document posted,,,2026-08-18 18:04:33.911522,True
+0600000184,INVOIC,INBOUND,CRM_SFDC,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-08-18 22:20:33.911522,True
+0600000519,ORDERS,OUTBOUND,B2B_VAN_SPS,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-08-18 22:24:33.911522,False
+0600000547,ORDRSP,INBOUND,WMS_MANHATTAN,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-08-19 07:11:33.911522,True
+0600000430,INVOIC,OUTBOUND,CRM_SFDC,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-08-19 08:55:33.911522,True
+0600000569,MATMAS,INBOUND,B2B_VAN_SPS,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-08-19 15:06:33.911522,True
+0600000724,DEBMAS,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-08-19 22:40:33.911522,True
+0600000489,DEBMAS,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-08-20 00:06:33.911522,True
+0600000434,ORDRSP,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-08-20 06:44:33.911522,True
+0600000738,ORDERS,OUTBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-08-20 09:07:33.911522,True
+0600000515,ORDRSP,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-08-20 14:44:33.911522,True
+0600000517,DEBMAS,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-08-20 15:23:33.911522,True
+0600000504,ORDERS,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-08-20 17:47:33.911522,True
+0600000126,ORDERS,OUTBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-08-20 21:58:33.911522,True
+0600000360,ORDRSP,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-08-21 05:03:33.911522,True
+0600000650,DEBMAS,OUTBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-08-21 08:17:33.911522,True
+0600000015,MATMAS,OUTBOUND,EDI_GATEWAY,53,Application document posted,,,2026-08-21 08:37:33.911522,True
+0600000256,MATMAS,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-08-22 01:38:33.911522,True
+0600000194,ORDERS,INBOUND,3PL_PROVIDER,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-08-22 05:16:33.911522,True
+0600000685,ORDERS,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-08-23 05:36:33.911522,True
+0600000175,ORDRSP,OUTBOUND,WMS_MANHATTAN,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-08-23 07:44:33.911522,True
+0600000796,CREMAS,INBOUND,3PL_PROVIDER,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-08-23 20:45:33.911522,False
+0600000188,ORDRSP,OUTBOUND,WMS_MANHATTAN,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-08-23 21:08:33.911522,False
+0600000270,WMMBXY,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-08-24 05:19:33.911522,True
+0600000652,WMMBXY,OUTBOUND,EDI_GATEWAY,53,Application document posted,,,2026-08-24 10:30:33.911522,True
+0600000624,WMMBXY,INBOUND,BTP_INTEGRATION_SUITE,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-08-24 22:06:33.911522,True
+0600000308,WMMBXY,OUTBOUND,EDI_GATEWAY,53,Application document posted,,,2026-08-25 04:19:33.911522,True
+0600000239,CREMAS,INBOUND,B2B_VAN_SPS,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-08-25 06:22:33.911522,True
+0600000084,DESADV,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-08-25 09:21:33.911522,True
+0600000170,WMMBXY,OUTBOUND,EDI_GATEWAY,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-08-25 11:34:33.911522,True
+0600000631,INVOIC,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-08-25 13:44:33.911522,True
+0600000500,WMMBXY,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-08-25 14:09:33.911522,True
+0600000054,DEBMAS,OUTBOUND,EDI_GATEWAY,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-08-25 19:02:33.911522,False
+0600000187,ORDRSP,OUTBOUND,BTP_INTEGRATION_SUITE,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-08-25 19:47:33.911522,True
+0600000253,CREMAS,INBOUND,LEGACY_MAINFRAME,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-08-25 23:19:33.911522,False
+0600000317,ORDERS,OUTBOUND,WMS_MANHATTAN,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-08-26 02:05:33.911522,False
+0600000083,WMMBXY,OUTBOUND,3PL_PROVIDER,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-08-26 12:10:33.911522,False
+0600000641,MATMAS,OUTBOUND,EDI_GATEWAY,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-08-26 14:46:33.911522,False
+0600000535,ORDERS,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-08-26 15:33:33.911522,True
+0600000365,MATMAS,INBOUND,3PL_PROVIDER,51,Application document not posted,Data inconsistency in target application (e.g. missing customer/material master record),Check IDoc segment data in WE02/WE05; verify referenced master data exists; reprocess via BD87,2026-08-26 21:32:33.911522,True
+0600000555,INVOIC,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-08-27 02:28:33.911522,True
+0600000748,ORDRSP,INBOUND,ARIBA_NETWORK,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-08-27 05:38:33.911522,True
+0600000788,DEBMAS,INBOUND,CRM_SFDC,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-08-27 21:01:33.911522,True
+0600000099,MATMAS,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-08-28 03:06:33.911522,True
+0600000364,INVOIC,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-08-28 07:17:33.911522,True
+0600000513,INVOIC,INBOUND,EDI_GATEWAY,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-08-28 13:24:33.911522,True
+0600000377,DEBMAS,INBOUND,BTP_INTEGRATION_SUITE,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-08-28 15:23:33.911522,True
+0600000574,DEBMAS,INBOUND,EDI_GATEWAY,53,Application document posted,,,2026-08-28 19:49:33.911522,True
+0600000351,ORDERS,INBOUND,BTP_INTEGRATION_SUITE,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-08-28 21:27:33.911522,False
+0600000655,DEBMAS,OUTBOUND,3PL_PROVIDER,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-08-29 06:31:33.911522,True
+0600000392,ORDERS,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-08-29 09:12:33.911522,True
+0600000554,DESADV,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-08-29 12:52:33.911522,True
+0600000157,CREMAS,OUTBOUND,EDI_GATEWAY,53,Application document posted,,,2026-08-29 14:47:33.911522,True
+0600000010,ORDRSP,OUTBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-08-29 17:24:33.911522,True
+0600000368,ORDERS,OUTBOUND,BTP_INTEGRATION_SUITE,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-08-29 23:08:33.911522,False
+0600000328,DESADV,INBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-08-30 13:41:33.911522,True
+0600000118,WMMBXY,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-08-30 14:54:33.911522,True
+0600000297,DEBMAS,INBOUND,B2B_VAN_SPS,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-08-30 17:35:33.911522,False
+0600000703,MATMAS,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-08-31 16:36:33.911522,True
+0600000312,INVOIC,OUTBOUND,EDI_GATEWAY,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-08-31 16:55:33.911522,True
+0600000697,CREMAS,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-08-31 19:24:33.911522,True
+0600000730,DESADV,INBOUND,CRM_SFDC,53,Application document posted,,,2026-08-31 22:54:33.911522,True
+0600000047,WMMBXY,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-09-01 04:05:33.911522,True
+0600000238,DEBMAS,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-09-01 05:59:33.911522,True
+0600000420,WMMBXY,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-09-01 12:10:33.911522,True
+0600000353,ORDERS,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-09-01 13:06:33.911522,True
+0600000483,MATMAS,INBOUND,CRM_SFDC,53,Application document posted,,,2026-09-01 17:49:33.911522,True
+0600000291,DESADV,INBOUND,ARIBA_NETWORK,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-09-02 00:02:33.911522,True
+0600000421,MATMAS,OUTBOUND,EDI_GATEWAY,02,"Error passing data to port (outbound, dispatch)",tRFC queue stuck or destination system down at dispatch time,Check tRFC monitor (SM58); reprocess stuck LUWs; confirm target availability,2026-09-02 01:22:33.911522,False
+0600000112,MATMAS,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-09-02 01:40:33.911522,True
+0600000457,DESADV,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-09-02 03:24:33.911522,True
+0600000755,MATMAS,INBOUND,CRM_SFDC,53,Application document posted,,,2026-09-02 05:45:33.911522,True
+0600000551,CREMAS,OUTBOUND,CRM_SFDC,53,Application document posted,,,2026-09-02 07:17:33.911522,True
+0600000344,MATMAS,INBOUND,EDI_GATEWAY,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-09-03 06:51:33.911522,False
+0600000561,DEBMAS,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-09-03 09:07:33.911522,True
+0600000289,MATMAS,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-09-03 10:22:33.911522,True
+0600000313,DEBMAS,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-09-03 10:50:33.911522,True
+0600000607,WMMBXY,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-09-03 12:52:33.911522,True
+0600000285,WMMBXY,INBOUND,CRM_SFDC,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-09-03 19:19:33.911522,False
+0600000371,ORDRSP,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-09-04 01:02:33.911522,True
+0600000209,DEBMAS,OUTBOUND,3PL_PROVIDER,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-09-04 03:14:33.911522,False
+0600000683,DEBMAS,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-09-04 06:04:33.911522,True
+0600000117,ORDERS,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-09-04 13:28:33.911522,True
+0600000217,CREMAS,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-09-04 16:10:33.911522,True
+0600000011,CREMAS,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-09-04 19:42:33.911522,True
+0600000591,DESADV,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-09-04 21:01:33.911522,True
+0600000676,MATMAS,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-09-05 01:54:33.911522,True
+0600000154,WMMBXY,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-09-05 12:51:33.911522,True
+0600000257,INVOIC,OUTBOUND,ARIBA_NETWORK,56,IDoc with errors added,Syntax or structural error while adding the IDoc to the database,Review IDoc control record and segment structure against the message type definition; check partner profile (WE20),2026-09-05 18:39:33.911522,True
+0600000273,DESADV,OUTBOUND,ARIBA_NETWORK,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-09-06 00:20:33.911522,False
+0600000248,WMMBXY,INBOUND,3PL_PROVIDER,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-09-06 12:34:33.911522,True
+0600000138,CREMAS,INBOUND,WMS_MANHATTAN,53,Application document posted,,,2026-09-06 18:42:33.911522,True
+0600000678,DEBMAS,INBOUND,EDI_GATEWAY,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-09-07 07:17:33.911522,True
+0600000549,ORDERS,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-09-07 11:05:33.911522,True
+0600000224,ORDERS,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-09-07 15:50:33.911522,True
+0600000120,INVOIC,OUTBOUND,ARIBA_NETWORK,53,Application document posted,,,2026-09-07 17:25:33.911522,True
+0600000639,CREMAS,INBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-09-08 07:40:33.911522,True
+0600000064,ORDRSP,OUTBOUND,LEGACY_MAINFRAME,02,"Error passing data to port (outbound, dispatch)",tRFC queue stuck or destination system down at dispatch time,Check tRFC monitor (SM58); reprocess stuck LUWs; confirm target availability,2026-09-08 13:30:33.911522,True
+0600000245,MATMAS,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-09-08 14:28:33.911522,True
+0600000242,CREMAS,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-09-10 03:00:33.911522,True
+0600000586,MATMAS,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-09-10 05:01:33.911522,True
+0600000418,MATMAS,OUTBOUND,EDI_GATEWAY,26,Error during syntax check of IDoc (outbound),IDoc structure does not match the basic type definition (missing mandatory segment),Compare IDoc type (WE30) against generated data; check segment release/version,2026-09-10 08:20:33.911522,False
+0600000473,ORDRSP,INBOUND,3PL_PROVIDER,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-09-10 15:06:33.911522,True
+0600000232,WMMBXY,OUTBOUND,3PL_PROVIDER,53,Application document posted,,,2026-09-10 16:42:33.911522,True
+0600000490,DEBMAS,INBOUND,3PL_PROVIDER,53,Application document posted,,,2026-09-10 20:26:33.911522,True
+0600000234,WMMBXY,INBOUND,CRM_SFDC,53,Application document posted,,,2026-09-10 21:41:33.911522,True
+0600000197,INVOIC,OUTBOUND,BTP_INTEGRATION_SUITE,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-09-11 03:45:33.911522,True
+0600000726,ORDRSP,OUTBOUND,CRM_SFDC,Duplicate,Duplicate IDoc detected for same business document,"Sender retried after a timeout without receiving acknowledgment, or interface lacks idempotency key",Implement duplicate-check logic on the natural key (PO/order number) before posting; enable IDoc duplicate check in partner profile,2026-09-11 04:41:33.911522,True
+0600000335,ORDRSP,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-09-11 16:59:33.911522,True
+0600000593,CREMAS,OUTBOUND,B2B_VAN_SPS,53,Application document posted,,,2026-09-11 20:52:33.911522,True
+0600000400,MATMAS,OUTBOUND,B2B_VAN_SPS,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-09-12 10:32:33.911522,True
+0600000410,INVOIC,OUTBOUND,3PL_PROVIDER,02,"Error passing data to port (outbound, dispatch)",tRFC queue stuck or destination system down at dispatch time,Check tRFC monitor (SM58); reprocess stuck LUWs; confirm target availability,2026-09-12 13:29:33.911522,False
+0600000688,MATMAS,OUTBOUND,BTP_INTEGRATION_SUITE,64,IDoc ready to be transferred to application,"Not an error state, but IDocs stuck here indicate the inbound processing job did not run",Check background job scheduling for RBDAPP01 / workflow; verify inbound processing is not deactivated in WE20,2026-09-12 17:07:33.911522,False
+0600000571,CREMAS,INBOUND,WMS_MANHATTAN,20,Error passing data to port,Communication channel (RFC destination / file port) unreachable or misconfigured,Test RFC destination in SM59; verify port definition in WE21; check target system availability,2026-09-12 17:18:33.911522,False
+0600000156,CREMAS,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-09-12 23:43:33.911522,True
+0600000278,DEBMAS,INBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-09-13 00:18:33.911522,True
+0600000129,INVOIC,OUTBOUND,LEGACY_MAINFRAME,53,Application document posted,,,2026-09-13 05:42:33.911522,True
+0600000756,ORDRSP,INBOUND,BTP_INTEGRATION_SUITE,53,Application document posted,,,2026-09-13 16:50:33.911522,True
+0600000071,MATMAS,INBOUND,B2B_VAN_SPS,68,Error - no further processing,A custom exit or user-status routine explicitly stopped processing,Debug the associated function module / process code in WE42; check custom Z-exits,2026-09-14 02:26:33.911522,True
+0600000265,MATMAS,OUTBOUND,WMS_MANHATTAN,29,Error in ALE service,Distribution model (BD64) misconfigured or filter object excluding the record,Review distribution model and filter/segment filters; regenerate partner profiles,2026-09-14 14:08:33.911522,True

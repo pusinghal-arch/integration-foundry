@@ -1,0 +1,11 @@
+PATTERN_ID,PATTERN_NAME,TECHNOLOGY,SYNC_ASYNC,TYPICAL_USE_CASE,MIDDLEWARE_EXAMPLES,COMMON_CHALLENGES
+PAT-001,Master Data Distribution (ALE),IDoc,Async,Sync customer/material/vendor master across SAP systems,SAP ALE (native),Filter object maintenance; segment version mismatches across releases
+PAT-002,Order-to-Cash IDoc Flow,IDoc,Async,ORDERS/ORDRSP/DESADV/INVOIC exchange with EDI trading partners,"SAP PI/PO, SAP CPI, B2B VAN",Partner-specific mapping variance; sequencing of DESADV before INVOIC
+PAT-003,Real-time Order Creation,BAPI,Sync,External web/mobile front-end creates sales orders in real time,"Custom middleware, SAP CPI",Transaction rollback handling; duplicate submission from client retries
+PAT-004,Batch Financial Posting,BAPI,Sync (batch-scheduled),Nightly bulk posting of GL/AP/AR documents from a sub-ledger system,"SAP Process Integration, custom ABAP report",Number range contention; partial-batch failure recovery
+PAT-005,Remote Function Call Integration,RFC,Sync,"Direct system-to-system calls for lookups (credit check, ATP, pricing)","SAP Gateway, custom RFC clients (JCo)",Connection pool exhaustion; timeout tuning under peak load
+PAT-006,S/4HANA API for Cloud Apps,OData,Sync,Cloud application reads/writes business objects via SAP API Business Hub services,"SAP BTP Integration Suite, direct OData consumption",CSRF token handling; entity deep-insert limitations
+PAT-007,Event-Driven Notifications,SAP Event Mesh / Webhook,Async,Publish business events (e.g. goods receipt) to subscriber microservices,"SAP Event Mesh, Kafka bridge",At-least-once delivery requiring consumer idempotency
+PAT-008,EDI B2B Exchange,EDI (X12/EDIFACT),Async,"Purchase orders, ASNs and invoices exchanged with trading partners","SAP CPI B2B Add-on, third-party VAN (e.g. SPS Commerce)",Functional acknowledgment SLAs; partner onboarding overhead
+PAT-009,Data Replication to Data Lake,CDC / ODP,Async (near real-time),Replicate SAP tables to a cloud data lake for analytics,"SAP Landscape Transformation (SLT), Operational Data Provisioning",Delta queue backlog under high change volume
+PAT-010,Middleware Orchestration Hub,Multi-protocol (IDoc/REST/SOAP),Mixed,Central integration platform brokering between SAP and 20+ non-SAP systems,"MuleSoft, Dell Boomi, SAP CPI, webMethods",Interface sprawl and inconsistent error-handling standards across flows
