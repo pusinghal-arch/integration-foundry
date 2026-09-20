@@ -8,6 +8,6 @@ In short: reuse, adapt, and republish freely, including commercially, as long as
 
 Suggested attribution:
 
-> Adapted from Puneet Singhal, *Intelligent Enterprise Integration Architecture Foundry* (https://github.com/puneetsinghal83/intelligent-enterprise-integration-foundry), used under CC BY 4.0.
+> Adapted from Puneet Singhal, *Intelligent Enterprise Integration Architecture Foundry* (https://github.com/puneetsinghal83/integration-foundry), used under CC BY 4.0.
 
 Code samples and scripts (including everything under `datasets/`) are licensed separately under the [MIT License](LICENSE).
