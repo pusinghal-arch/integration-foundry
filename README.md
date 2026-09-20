@@ -17,7 +17,6 @@ This repository is that middle layer, built from real integration and architectu
 
 | Architecture | Domain | What it solves |
 |---|---|---|
-| [Trust-aware agentic finance posting](docs/architectures/01-trust-aware-agentic-finance-posting.md) | SAP FI/CO, agentic AI | Letting an agent recommend or execute a posting without letting model confidence override authorization, SoD, or policy controls |
 | [Agentic root-cause copilot for SAP interfaces](docs/architectures/02-agentic-root-cause-copilot-for-interfaces.md) | Integration operations | Turning IDoc/BAPI/RFC/OData/EDI/CPI error events into ranked, evidence-backed remediation instead of a status code and a runbook search |
 | [Hybrid integration: BTP and legacy middleware coexistence](docs/architectures/03-hybrid-integration-btp-legacy-coexistence.md) | Enterprise integration | Running SAP PI/PO (or another iPaaS) and SAP BTP Integration Suite side by side for the length of a real migration, without duplicate processing or lost ownership |
 
@@ -47,7 +46,7 @@ This repository is that middle layer, built from real integration and architectu
 
 ## Dataset
 
-[`datasets/sap-erp-integration-dataset/`](datasets/sap-erp-integration-dataset/) — a synthetic, referentially-linked SAP/ERP dataset covering master data, order-to-cash transactions, financial postings, and IDoc/BAPI/RFC/OData error patterns. Released under CC0 (public domain). Built specifically because production SAP data is confidential and public datasets for this kind of integration and anomaly-detection work barely exist. Use it to prototype the [root-cause copilot](docs/architectures/02-agentic-root-cause-copilot-for-interfaces.md) or the [finance posting controller](docs/architectures/01-trust-aware-agentic-finance-posting.md) without touching anything real.
+[`datasets/sap-erp-integration-dataset/`](datasets/sap-erp-integration-dataset/) — a synthetic, referentially-linked SAP/ERP dataset covering master data, order-to-cash transactions, financial postings, and IDoc/BAPI/RFC/OData error patterns. Released under CC0 (public domain). Built specifically because production SAP data is confidential and public datasets for this kind of integration and anomaly-detection work barely exist. Use it to prototype the [root-cause copilot](docs/architectures/02-agentic-root-cause-copilot-for-interfaces.md) without touching anything real.
 
 ## Using this repository
 

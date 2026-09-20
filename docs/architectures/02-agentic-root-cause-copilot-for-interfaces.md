@@ -27,7 +27,7 @@ flowchart TD
     K -.outcome feedback.-> F
 ```
 
-The core idea: separate *classification* (what is this error, using the deterministic error catalog) from *ranking* (which of the possible causes is most likely this time, using history) from *action* (auto-remediate only within a tightly scoped, pre-approved action set). This mirrors the policy-gate discipline in the [trust-aware finance posting architecture](01-trust-aware-agentic-finance-posting.md) — an LLM is trusted to draft and rank, not to execute anything with side effects beyond a pre-approved, reversible action list.
+The core idea: separate *classification* (what is this error, using the deterministic error catalog) from *ranking* (which of the possible causes is most likely this time, using history) from *action* (auto-remediate only within a tightly scoped, pre-approved action set). An LLM is trusted to draft and rank, not to execute anything with side effects beyond a pre-approved, reversible action list.
 
 **Blast radius matters more than confidence alone.** A misclassified IDoc that gets reprocessed twice can double-post a financial document — that's why duplicate detection (`ERR-0009` in the catalog below) sits behind a hard idempotency check, not just a confidence threshold, before any auto-remediation path touches it. Auto-remediation should be reserved for actions that are safe to get wrong: refreshing an expired OAuth token, re-fetching a CSRF token before a retry, re-triggering a stuck background job. Anything that changes business data goes to a human, every time, regardless of how confident the ranking agent is.
 
@@ -51,11 +51,11 @@ The [synthetic SAP ERP integration dataset](../../datasets/sap-erp-integration-d
 ## When it doesn't
 
 - Landscapes with only a handful of interfaces, where a runbook and a human are simpler and cheaper
-- Teams that want to auto-remediate financial or master-data-changing actions — that risk belongs with the [trust-aware policy gate](01-trust-aware-agentic-finance-posting.md) pattern, not with a monitoring copilot
+- Teams that want to auto-remediate financial or master-data-changing actions — that risk needs a hard policy gate in front of it, not just a monitoring copilot's ranking
 - As a substitute for fixing chronically flaky interfaces — a copilot that gets very good at explaining the same recurring failure is a sign the failure should be fixed at the source, not triaged faster
 
 ## Related
 
-- [Trust-aware agentic finance posting](01-trust-aware-agentic-finance-posting.md) — the same evidence-then-gate philosophy applied to postings instead of interface errors
+- [Guardrails for agentic AI in ERP](../decision-guides/agentic-ai-guardrails-for-erp.md) — the policy-gate checklist for anything with more blast radius than this pattern's remediation actions
 - [Choosing an integration pattern for SAP landscapes](../decision-guides/choosing-integration-pattern.md)
 - [Integration pattern and error catalog](../patterns/integration-patterns-catalog.md)

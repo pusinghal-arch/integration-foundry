@@ -32,7 +32,7 @@ A practitioner blog post from SAP Community ("SAP Joule Agent and SAP Asset Perf
 ## Related
 
 - [Guardrails for agentic AI in ERP: a policy-gate checklist](agentic-ai-guardrails-for-erp.md)
-- [Trust-aware agentic control for SAP finance posting](../architectures/01-trust-aware-agentic-finance-posting.md)
+- [Agentic root-cause copilot for SAP interfaces](../architectures/02-agentic-root-cause-copilot-for-interfaces.md)
 
 ## Sources
 
