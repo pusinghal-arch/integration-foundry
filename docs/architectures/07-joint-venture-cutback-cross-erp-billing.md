@@ -14,7 +14,7 @@ The integration problem shows up at the boundary of what SAP JVA can see. JVA do
 ```mermaid
 flowchart TD
     subgraph Upstream["Revenue and cost sources"]
-        A[Production and Revenue\nAccounting: revenue by well]
+        A[Production and Revenue\nAccounting - revenue by well]
         B[AFE-tracked capital and\noperating costs]
     end
 
@@ -26,7 +26,7 @@ flowchart TD
     end
 
     subgraph Partner["Non-operating partner"]
-        G[Partner's ERP\nSAP or non-SAP]
+        G[Partner ERP\nSAP or non-SAP]
         H[Independent JIB reconciliation\njoint interest billing]
     end
 

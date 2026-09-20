@@ -34,14 +34,18 @@ flowchart LR
         M3[Event Mesh\nevent-driven flows]
     end
 
-    S1 & S2 & S3 --> GW
+    S1 --> GW
+    S2 --> GW
+    S3 --> GW
     GW --> R
     R -->|flow not yet migrated| L1
     R -->|flow migrated| M1
     R --> M2
     R --> M3
     L1 --> S1
-    M1 & M2 & M3 --> S1
+    M1 --> S1
+    M2 --> S1
+    M3 --> S1
 ```
 
 The interface registry is the load-bearing piece, and it is deliberately not a diagram or a spreadsheet that goes stale — it is a queryable source of truth (even a simple database table works) that records, per interface: which platform currently owns it, the cutover date if migration is in progress, and the rollback plan. The API gateway or reverse proxy in front of both platforms routes by that registry rather than by static DNS entries, so a cutover is a registry update and a routing change, not a partner-facing endpoint change.
