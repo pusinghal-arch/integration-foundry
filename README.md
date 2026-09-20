@@ -72,6 +72,6 @@ Written content (`docs/`) is [CC BY 4.0](LICENSE-DOCS.md). Code and the dataset 
 
 ## About
 
-Written and maintained by [Puneet Singhal](https://github.com/puneetsinghal83) — Senior Member, IEEE, and enterprise integration architect working across SAP S/4HANA, integration platforms, and agentic AI, with a focus on oil & gas and other heavy-asset industries.
+Written and maintained by [Puneet Singhal](https://github.com/pusinghal-arch) — Senior Member, IEEE, and enterprise integration architect working across SAP S/4HANA, integration platforms, and agentic AI, with a focus on oil & gas and other heavy-asset industries.
 
 *LinkedIn and additional publication links to be added.*
