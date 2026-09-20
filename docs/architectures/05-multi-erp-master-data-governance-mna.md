@@ -68,3 +68,4 @@ flowchart TD
 
 - [Field telemetry to SAP EAM for upstream and midstream assets](04-iot-to-sap-eam-upstream-midstream.md) — depends on the equipment master and functional location data this pattern helps keep coherent across instances
 - [Joint venture cutback and cross-ERP partner billing](07-joint-venture-cutback-cross-erp-billing.md) — the narrower, revenue-specific version of the cross-ERP reconciliation problem this pattern addresses at the master-data level
+- [Agentic supplier risk and performance reasoning](12-agentic-supplier-risk-and-performance-reasoning.md) — the same identity-resolution discipline applied to supplier records across Ariba, S/4HANA, and Business Network

@@ -68,6 +68,7 @@ nav:
       - Cross-industry:
           - Agentic root-cause copilot for SAP interfaces: architectures/02-agentic-root-cause-copilot-for-interfaces.md
           - "Hybrid integration: BTP and legacy coexistence": architectures/03-hybrid-integration-btp-legacy-coexistence.md
+          - Agentic supplier risk and performance reasoning: architectures/12-agentic-supplier-risk-and-performance-reasoning.md
       - Oil & gas:
           - Field telemetry to SAP EAM (upstream/midstream): architectures/04-iot-to-sap-eam-upstream-midstream.md
           - Multi-ERP master data governance for M&A portfolios: architectures/05-multi-erp-master-data-governance-mna.md
@@ -78,6 +79,7 @@ nav:
           - Permit-to-work as a safety gate on Plant Maintenance: architectures/10-permit-to-work-safety-gate-plant-maintenance.md
           - Bridging CEMS into SAP Environment Management: architectures/11-cems-emissions-to-sap-ehs-environment-management.md
   - Decision guides:
+      - A quick architecture self-test: decision-guides/architecture-self-test.md
       - "SAP's oil & gas solution landscape": decision-guides/sap-oil-gas-solution-landscape.md
       - Choosing an integration pattern: decision-guides/choosing-integration-pattern.md
       - Guardrails for agentic AI in ERP: decision-guides/agentic-ai-guardrails-for-erp.md

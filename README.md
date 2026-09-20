@@ -25,7 +25,13 @@ Every architecture in this repository sits somewhere on the same path, whether o
 - **Reasoning** — the model, agent, or rules engine proposing a classification, ranking, or recommendation
 - **Governed action** — the policy gate and audit trail deciding whether that recommendation is actually allowed to happen ([ADR-001](docs/decisions/adr-001-agents-recommend-policy-gates-authorize.md))
 
-Most architecture writeups collapse Reasoning and Governed action into one step, which is exactly the assumption [the guardrails checklist](docs/decision-guides/agentic-ai-guardrails-for-erp.md) and the [ADRs](docs/decisions/index.md) argue against.
+The path loops back on itself — every architecture that's worth including here feeds its outcomes back into Context, not just forward into Action:
+
+**Systems of record → Integration → Context → Reasoning → Governed action → (outcome feeds back into Context)**
+
+This isn't a diagram flourish. It's concrete in the architectures themselves: the [root-cause copilot](docs/architectures/02-agentic-root-cause-copilot-for-interfaces.md)'s remediation outcomes feed back into its ranking model, the [joint venture cutback](docs/architectures/07-joint-venture-cutback-cross-erp-billing.md) architecture routes partner disputes back into the billing process that produced them, and the [field measurement](docs/architectures/06-field-measurement-to-production-revenue-accounting.md) architecture explicitly reprocesses allocation when a late correction arrives. An architecture that only points forward has no way to get better at the thing it's already doing, and no way to notice when the conditions it was designed under have quietly changed.
+
+Most architecture writeups collapse Reasoning and Governed action into one step, which is exactly the assumption [the guardrails checklist](docs/decision-guides/agentic-ai-guardrails-for-erp.md) and the [ADRs](docs/decisions/index.md) argue against. Before committing to a design, run it through the [quick self-test](docs/decision-guides/architecture-self-test.md) — eight questions, five minutes.
 
 ## Reference architectures
 
@@ -35,6 +41,7 @@ Most architecture writeups collapse Reasoning and Governed action into one step,
 |---|---|---|
 | [Agentic root-cause copilot for SAP interfaces](docs/architectures/02-agentic-root-cause-copilot-for-interfaces.md) | Integration operations | Turning IDoc/BAPI/RFC/OData/EDI/CPI error events into ranked, evidence-backed remediation instead of a status code and a runbook search |
 | [Hybrid integration: BTP and legacy middleware coexistence](docs/architectures/03-hybrid-integration-btp-legacy-coexistence.md) | Enterprise integration | Running SAP PI/PO (or another iPaaS) and SAP BTP Integration Suite side by side for the length of a real migration, without duplicate processing or lost ownership |
+| [Agentic supplier risk and performance reasoning](docs/architectures/12-agentic-supplier-risk-and-performance-reasoning.md) | Procurement, SAP Ariba | Joining supplier risk signals against actual spend/contract exposure before treating a risk score as actionable |
 
 **Oil & gas**
 
@@ -51,6 +58,7 @@ Most architecture writeups collapse Reasoning and Governed action into one step,
 
 ## Decision guides
 
+- [A quick self-test for any proposed architecture](docs/decision-guides/architecture-self-test.md) — eight questions, five minutes, before you commit to a design
 - [SAP's oil & gas solution landscape: a map for architects](docs/decision-guides/sap-oil-gas-solution-landscape.md) — current terminology (IS-Oil to S/4HANA), what integrates with what, and where the architectures above fit
 - [Choosing an integration pattern for SAP landscapes](docs/decision-guides/choosing-integration-pattern.md) — sync vs. async, IDoc vs. BAPI vs. OData vs. event-driven, and the failure-mode questions that should drive the choice
 - [Guardrails for agentic AI in ERP: a policy-gate checklist](docs/decision-guides/agentic-ai-guardrails-for-erp.md) — what has to be true before an agent is allowed to act autonomously inside an ERP system, generalized from the finance-posting architecture

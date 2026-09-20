@@ -11,6 +11,7 @@ This site is that middle layer, built from real integration and architecture wor
 ## Where to start
 
 - **New to this repository?** Start with [Reference architectures](architectures/index.md) — each one follows the same structure: the actual problem, the architecture with a diagram, the design decisions that matter, and when the pattern does and doesn't fit.
+- **Sketching your own design?** Run it through the [quick self-test](decision-guides/architecture-self-test.md) first — eight questions, five minutes.
 - **Working in oil & gas specifically?** Start with [SAP's oil & gas solution landscape](decision-guides/sap-oil-gas-solution-landscape.md) — a terminology map from legacy IS-Oil to current S/4HANA naming, with links into the architectures that use each capability.
 - **Designing an agent that acts inside an ERP system?** Go straight to [Guardrails for agentic AI in ERP](decision-guides/agentic-ai-guardrails-for-erp.md).
 - **Want to build against something concrete?** The [companion dataset](dataset.md) is a synthetic, CC0 SAP/ERP dataset built specifically so you can prototype against realistic data without touching anything real.

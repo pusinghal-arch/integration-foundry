@@ -8,6 +8,7 @@ Each architecture below follows the same structure: the actual problem (not a re
 |---|---|---|
 | [Agentic root-cause copilot for SAP interfaces](02-agentic-root-cause-copilot-for-interfaces.md) | Integration operations | Turning IDoc/BAPI/RFC/OData/EDI/CPI error events into ranked, evidence-backed remediation instead of a status code and a runbook search |
 | [Hybrid integration: BTP and legacy middleware coexistence](03-hybrid-integration-btp-legacy-coexistence.md) | Enterprise integration | Running SAP PI/PO (or another iPaaS) and SAP BTP Integration Suite side by side for the length of a real migration, without duplicate processing or lost ownership |
+| [Agentic supplier risk and performance reasoning](12-agentic-supplier-risk-and-performance-reasoning.md) | Procurement, SAP Ariba | Joining supplier risk signals against actual spend/contract exposure before treating a risk score as actionable |
 
 ## Oil & gas
 
