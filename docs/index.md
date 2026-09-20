@@ -21,6 +21,7 @@ This site is that middle layer, built from real integration and architecture wor
 |---|---|
 | [Reference architectures](architectures/index.md) | Full architecture writeups — problem, diagram, decisions, when to use and when not to |
 | [Decision guides](decision-guides/sap-oil-gas-solution-landscape.md) | Cross-cutting guidance for choosing between patterns, not tied to one architecture |
+| [Architecture Decision Records](decisions/index.md) | Short, standing positions this repository takes across every architecture — what was decided and why |
 | [Pattern catalog](patterns/integration-patterns-catalog.md) | A reference table of SAP integration patterns and common error codes |
 | [Dataset](dataset.md) | The synthetic SAP ERP dataset backing several of the architectures above |
 

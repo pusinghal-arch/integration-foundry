@@ -29,3 +29,4 @@ Every asynchronous pattern (IDoc, Event Mesh, queued messaging) has to answer: w
 
 - [Integration pattern and error catalog](../patterns/integration-patterns-catalog.md) — the ten patterns referenced above, with common failure modes for each
 - [Hybrid integration: SAP BTP Integration Suite and legacy middleware coexistence](../architectures/03-hybrid-integration-btp-legacy-coexistence.md)
+- [ADR-002: Default to asynchronous, event-driven integration](../decisions/adr-002-async-by-default.md) — the standing position this guide argues for

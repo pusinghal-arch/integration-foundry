@@ -83,4 +83,9 @@ nav:
       - Guardrails for agentic AI in ERP: decision-guides/agentic-ai-guardrails-for-erp.md
       - "Agentic AI in SAP: shipped vs. announced": decision-guides/agentic-ai-in-sap-where-things-stand.md
   - Pattern catalog: patterns/integration-patterns-catalog.md
+  - Architecture Decision Records:
+      - Overview: decisions/index.md
+      - "ADR-001: Agents recommend, policy gates authorize": decisions/adr-001-agents-recommend-policy-gates-authorize.md
+      - "ADR-002: Async by default": decisions/adr-002-async-by-default.md
+      - "ADR-003: Approval scales with blast radius": decisions/adr-003-human-approval-scales-with-blast-radius.md
   - Dataset: dataset.md

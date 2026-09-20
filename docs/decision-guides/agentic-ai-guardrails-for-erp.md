@@ -27,4 +27,5 @@ A checklist for any agent that can take an action inside an ERP system — posti
 ## Related
 
 - [Agentic root-cause copilot for SAP interfaces](../architectures/02-agentic-root-cause-copilot-for-interfaces.md) — this checklist applied to a lower-stakes domain, showing how the answers change with blast radius
+- [ADR-001: Agents recommend; deterministic policy gates authorize](../decisions/adr-001-agents-recommend-policy-gates-authorize.md) and [ADR-003: Human approval scales with blast radius](../decisions/adr-003-human-approval-scales-with-blast-radius.md) — the standing positions this checklist enforces
 - [Agentic AI in SAP landscapes: what's actually shipped versus announced](agentic-ai-in-sap-where-things-stand.md) — how this checklist compares to SAP's own governance direction (Joule, AI Agent Hub)

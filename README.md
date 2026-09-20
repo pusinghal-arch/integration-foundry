@@ -13,6 +13,20 @@ Most enterprise integration knowledge lives in three places: vendor documentatio
 
 This repository is that middle layer, built from real integration and architecture work: SAP finance, ERP-to-ERP data flows, industrial IoT into asset management, and the operational mess that shows up when agentic AI is asked to do more than generate a suggestion. It leads with SAP because that's the deepest expertise behind it, and it doesn't stop at SAP, because most of the hard integration problems in a large enterprise happen at the boundary between SAP and everything else.
 
+## How this fits together
+
+Every architecture in this repository sits somewhere on the same path, whether or not the document says so explicitly:
+
+**Systems of record → Integration → Context → Reasoning → Governed action**
+
+- **Systems of record** — SAP and the other transactional systems that hold the data of consequence
+- **Integration** — the APIs, events, and middleware that move that data without corrupting it
+- **Context** — the master data, ownership, and historical outcomes an agent or a human needs to interpret a situation correctly
+- **Reasoning** — the model, agent, or rules engine proposing a classification, ranking, or recommendation
+- **Governed action** — the policy gate and audit trail deciding whether that recommendation is actually allowed to happen ([ADR-001](docs/decisions/adr-001-agents-recommend-policy-gates-authorize.md))
+
+Most architecture writeups collapse Reasoning and Governed action into one step, which is exactly the assumption [the guardrails checklist](docs/decision-guides/agentic-ai-guardrails-for-erp.md) and the [ADRs](docs/decisions/index.md) argue against.
+
 ## Reference architectures
 
 **Cross-industry**
@@ -41,6 +55,14 @@ This repository is that middle layer, built from real integration and architectu
 - [Choosing an integration pattern for SAP landscapes](docs/decision-guides/choosing-integration-pattern.md) — sync vs. async, IDoc vs. BAPI vs. OData vs. event-driven, and the failure-mode questions that should drive the choice
 - [Guardrails for agentic AI in ERP: a policy-gate checklist](docs/decision-guides/agentic-ai-guardrails-for-erp.md) — what has to be true before an agent is allowed to act autonomously inside an ERP system, generalized from the finance-posting architecture
 - [Agentic AI in SAP landscapes: what's actually shipped versus announced](docs/decision-guides/agentic-ai-in-sap-where-things-stand.md) — separating SAP's shipped Joule/AI Agent Hub capabilities from roadmap announcements, and where SAP's own governance direction lines up with the guardrails checklist above
+
+## Architecture Decision Records
+
+Short, standing positions this repository takes across every architecture in it — not "how to choose," but "what we decided and why." See [docs/decisions/](docs/decisions/index.md):
+
+- [ADR-001: Agents recommend; deterministic policy gates authorize](docs/decisions/adr-001-agents-recommend-policy-gates-authorize.md)
+- [ADR-002: Default to asynchronous, event-driven integration](docs/decisions/adr-002-async-by-default.md)
+- [ADR-003: Human approval requirements scale with blast radius, not model confidence](docs/decisions/adr-003-human-approval-scales-with-blast-radius.md)
 
 ## Pattern and error catalog
 
@@ -71,6 +93,8 @@ Real-world corrections and new architectures grounded in actual experience are w
 ## License
 
 Written content (`docs/`) is [CC BY 4.0](LICENSE-DOCS.md). Code and the dataset generators are [MIT](LICENSE). SAP, IDoc, BAPI, S/4HANA, and related terms are used descriptively to refer to the technologies discussed and are trademarks of SAP SE; this project is independent and not affiliated with or endorsed by SAP.
+
+Citation metadata is in [CITATION.cff](CITATION.cff) — GitHub surfaces this automatically as a "Cite this repository" option in the sidebar.
 
 ## About
 

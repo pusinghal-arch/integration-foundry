@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use or adapt this work, please cite it as below."
+title: "Intelligent Enterprise Integration Architecture Foundry"
+type: software
+authors:
+  - family-names: "Singhal"
+    given-names: "Puneet"
+repository-code: "https://github.com/pusinghal-arch/integration-foundry"
+url: "https://pusinghal-arch.github.io/integration-foundry/"
+license: CC-BY-4.0
+keywords:
+  - SAP
+  - enterprise integration architecture
+  - agentic AI
+  - ERP
+  - oil and gas
+  - S/4HANA
+  - integration patterns
+abstract: >
+  Reference architectures, decision records, and open data for SAP,
+  enterprise integration, and agentic AI, with particular depth in
+  oil & gas and other heavy-asset industries. Written content is
+  licensed CC BY 4.0; code and datasets are licensed MIT (see LICENSE
+  and LICENSE-DOCS.md).

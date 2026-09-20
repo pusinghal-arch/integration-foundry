@@ -8,6 +8,7 @@ This foundry grows from real integration and architecture problems, not from pad
 - A correction to an existing architecture — a constraint that's missing, a diagram that's wrong, a tradeoff stated too simply
 - An addition to the pattern catalog with a real example of where it broke down
 - A fix to the dataset generators, or a new table that fills a gap
+- A new Architecture Decision Record for a standing question this repository hasn't taken a position on yet — see `docs/decisions/` for the format and existing examples
 
 ## What doesn't fit here
 
