@@ -2,6 +2,8 @@
 # Extracts every ```mermaid fenced block from docs/**/*.md and renders it with
 # mermaid-cli (mmdc) to confirm the syntax actually compiles. Requires mmdc on
 # PATH — CI installs it via `npm install -g @mermaid-js/mermaid-cli`.
+# Uses puppeteer-config.json (--no-sandbox) since CI runners can't launch a
+# sandboxed Chromium as root.
 #
 # Usage: ./scripts/validate-mermaid.sh
 
@@ -38,7 +40,7 @@ while IFS= read -r -d '' file; do
       count=$((count + 1))
       src="$tmp/block.mmd"
       printf '%s\n' "$block" > "$src"
-      if ! mmdc -i "$src" -o "$tmp/out-$count.svg" >/tmp/mmdc-out.log 2>&1; then
+      if ! mmdc -p "$repo_root/puppeteer-config.json" -i "$src" -o "$tmp/out-$count.svg" >/tmp/mmdc-out.log 2>&1; then
         echo "FAILED to render mermaid block #$block_index in $file:"
         sed 's/^/  /' /tmp/mmdc-out.log
         fail=1
