@@ -64,3 +64,5 @@ flowchart LR
 
 - [Multi-ERP master data governance for M&A-heavy asset portfolios](05-multi-erp-master-data-governance-mna.md) — the equipment master and functional location hierarchy this pattern depends on gets harder to keep current across multiple SAP instances after an acquisition or joint venture
 - [Agentic root-cause copilot for SAP interfaces](02-agentic-root-cause-copilot-for-interfaces.md) — similar evidence-then-escalate philosophy applied to integration errors instead of asset condition
+- [Permit-to-work as a safety gate on Plant Maintenance](10-permit-to-work-safety-gate-plant-maintenance.md) — the safety process that gates the maintenance orders this pattern generates
+- [Bridging continuous emissions monitoring into SAP Environment Management](11-cems-emissions-to-sap-ehs-environment-management.md) — a parallel field-telemetry integration for a compliance rather than maintenance use case

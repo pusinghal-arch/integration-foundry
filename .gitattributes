@@ -1,0 +1,6 @@
+# Force LF line endings for shell scripts regardless of the committer's platform,
+# so they run correctly when checked out on Linux CI runners.
+*.sh text eol=lf
+
+# Let git decide text vs. binary for everything else, normalizing to LF in the repo.
+* text=auto eol=lf

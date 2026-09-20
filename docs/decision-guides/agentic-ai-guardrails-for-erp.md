@@ -28,3 +28,4 @@ This generalizes the policy-gate design from [trust-aware agentic finance postin
 
 - [Trust-aware agentic finance posting](../architectures/01-trust-aware-agentic-finance-posting.md) — where this checklist came from, applied to SAP FI/CO postings
 - [Agentic root-cause copilot for SAP interfaces](../architectures/02-agentic-root-cause-copilot-for-interfaces.md) — the same checklist applied to a lower-stakes domain, showing how the answers change with blast radius
+- [Agentic AI in SAP landscapes: what's actually shipped versus announced](agentic-ai-in-sap-where-things-stand.md) — how this checklist compares to SAP's own governance direction (Joule, AI Agent Hub)
