@@ -1,0 +1,86 @@
+site_name: Intelligent Enterprise Integration Architecture Foundry
+site_description: Reference architectures, decision guides, and open data for SAP, enterprise integration, and agentic AI — with real depth in oil & gas.
+site_url: https://pusinghal-arch.github.io/integration-foundry/
+repo_url: https://github.com/pusinghal-arch/integration-foundry
+repo_name: pusinghal-arch/integration-foundry
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  icon:
+    logo: material/sitemap-outline
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Reference architectures:
+      - Overview: architectures/index.md
+      - Cross-industry:
+          - Agentic root-cause copilot for SAP interfaces: architectures/02-agentic-root-cause-copilot-for-interfaces.md
+          - "Hybrid integration: BTP and legacy coexistence": architectures/03-hybrid-integration-btp-legacy-coexistence.md
+      - Oil & gas:
+          - Field telemetry to SAP EAM (upstream/midstream): architectures/04-iot-to-sap-eam-upstream-midstream.md
+          - Multi-ERP master data governance for M&A portfolios: architectures/05-multi-erp-master-data-governance-mna.md
+          - Field measurement to Production and Revenue Accounting: architectures/06-field-measurement-to-production-revenue-accounting.md
+          - Joint venture cutback and cross-ERP partner billing: architectures/07-joint-venture-cutback-cross-erp-billing.md
+          - "Terminal measurement to ledger: gain/loss reconciliation": architectures/08-terminal-measurement-gain-loss-reconciliation.md
+          - Trading and scheduling orchestration (TSW/TM): architectures/09-trading-scheduling-orchestration-tsw-tm.md
+          - Permit-to-work as a safety gate on Plant Maintenance: architectures/10-permit-to-work-safety-gate-plant-maintenance.md
+          - Bridging CEMS into SAP Environment Management: architectures/11-cems-emissions-to-sap-ehs-environment-management.md
+  - Decision guides:
+      - "SAP's oil & gas solution landscape": decision-guides/sap-oil-gas-solution-landscape.md
+      - Choosing an integration pattern: decision-guides/choosing-integration-pattern.md
+      - Guardrails for agentic AI in ERP: decision-guides/agentic-ai-guardrails-for-erp.md
+      - "Agentic AI in SAP: shipped vs. announced": decision-guides/agentic-ai-in-sap-where-things-stand.md
+  - Pattern catalog: patterns/integration-patterns-catalog.md
+  - Dataset: dataset.md

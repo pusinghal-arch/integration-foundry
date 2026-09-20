@@ -2,6 +2,8 @@
 
 Reference architectures, decision guides, and open data for the place where SAP, enterprise integration, and agentic AI actually meet operational reality — including the parts of that reality specific to oil & gas and other heavy-asset industries, where most public architecture content doesn't bother going.
 
+**Browse the searchable site: [pusinghal-arch.github.io/integration-foundry](https://pusinghal-arch.github.io/integration-foundry/)**
+
 [![License: CC BY 4.0](https://img.shields.io/badge/docs-CC%20BY%204.0-blue.svg)](LICENSE-DOCS.md)
 [![License: MIT](https://img.shields.io/badge/code-MIT-green.svg)](LICENSE)
 
@@ -60,6 +62,7 @@ Diagrams are Mermaid, inline in the Markdown, so they render directly on GitHub 
 - `./scripts/validate-mermaid.sh` — extracts every Mermaid block under `docs/` and renders it with [mermaid-cli](https://github.com/mermaid-js/mermaid-cli) to catch syntax errors before they hit a PR. Runs in CI (needs `npm install -g @mermaid-js/mermaid-cli` locally).
 - `./scripts/new-architecture.sh <slug>` — scaffolds a new numbered architecture doc from `templates/architecture-template.md`.
 - CI ([`.github/workflows/ci.yml`](.github/workflows/ci.yml)) also runs a best-effort external link check ([lychee](https://github.com/lycheeverse/lychee)) against every source citation, non-blocking since SAP Community and vendor sites routinely rate-limit or 403 automated checks.
+- The searchable site is built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) from `mkdocs.yml` and deployed to GitHub Pages by [`.github/workflows/docs.yml`](.github/workflows/docs.yml) on every push to `main`. Build locally with `pip install -r requirements.txt && mkdocs serve`.
 
 ## Contributing
 
