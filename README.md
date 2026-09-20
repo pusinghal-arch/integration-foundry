@@ -7,7 +7,7 @@ Reference architectures, decision guides, and open data for the place where SAP,
 
 ## Why this exists
 
-Most SAP integration knowledge lives in three places: vendor documentation that describes what a product does but not when to use it, consulting decks that never leave the client who paid for them, and forum threads answering one narrow question at a time. There's very little that sits between those — architecture written the way a practitioner would explain it to another practitioner, with the tradeoffs and failure modes included, published where it can actually be reused and argued with.
+Most enterprise integration knowledge lives in three places: vendor documentation that describes what a product does but not when to use it, consulting decks that never leave the client who paid for them, and forum threads answering one narrow question at a time. There's very little that sits between those — architecture written the way a practitioner would explain it to another practitioner, with the tradeoffs and failure modes included, published where it can actually be reused and argued with.
 
 This repository is that middle layer, built from real integration and architecture work: SAP finance, ERP-to-ERP data flows, industrial IoT into asset management, and the operational mess that shows up when agentic AI is asked to do more than generate a suggestion. It leads with SAP because that's the deepest expertise behind it, and it doesn't stop at SAP, because most of the hard integration problems in a large enterprise happen at the boundary between SAP and everything else.
 
