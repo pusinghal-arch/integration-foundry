@@ -1,5 +1,5 @@
 site_name: Intelligent Enterprise Integration Architecture Foundry
-site_description: Reference architectures, decision guides, and open data for SAP, enterprise integration, and agentic AI — with real depth in oil & gas.
+site_description: SAP integration architecture, agentic AI reference architectures, and a synthetic SAP ERP integration dataset — with real depth in oil & gas (S/4HANA, BTP, PRA, JVA, TSW).
 site_url: https://pusinghal-arch.github.io/integration-foundry/
 repo_url: https://github.com/pusinghal-arch/integration-foundry
 repo_name: pusinghal-arch/integration-foundry
